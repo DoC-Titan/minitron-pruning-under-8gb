@@ -767,8 +767,8 @@
     },
     {
       "path": "publish.py",
-      "bytes": 6184,
-      "sha256": "ac1831bb40d5859705959c6f422a94f90d671d64eef015b27e4db9171d69ad48"
+      "bytes": 6204,
+      "sha256": "97b7f61b02e036d5e81d824c230ee9a5453443d11d2c71fa9faa1d74f2d64a63"
     },
     {
       "path": "README.md",
@@ -1116,7 +1116,7 @@
       "sha256": "6899e66182c2d733202c6ec2500f7f5fab79950383c5f7a55928cbd2047f1a6b"
     }
   ],
-  "total_bytes": 169792851,
+  "total_bytes": 169792871,
   "excluded": [
     "large model weights",
     "optimizer/RNG states",

@@ -13,7 +13,7 @@ ROOT=Path(__file__).resolve().parent
 
 
 def command(args,check=True):
-    return subprocess.run(args,cwd=ROOT,text=True,capture_output=True,check=check)
+    return subprocess.run(args,cwd=ROOT,text=True,encoding='utf-8',capture_output=True,check=check)
 
 
 def main():
@@ -75,7 +75,7 @@ def main():
     view=json.loads(command([a.gh,'repo','view',f'{login}/{a.name}','--json','url,visibility,defaultBranchRef']).stdout)
     local=command(['git','rev-parse','HEAD']).stdout.strip()
     # Verify the hosted branch through GitHub, not only a local origin name.
-    hosted=json.loads(command([a.gh,'api',f'repos/{login}/{a.name}/commits/main']).stdout)['sha']
+    hosted=command([a.gh,'api',f'repos/{login}/{a.name}/commits/main','--jq','.sha']).stdout.strip()
     assert local==hosted,'Remote commit verification failed'
     receipt={'status':'PUBLISHED_AND_VERIFIED','url':view['url'],'visibility':view['visibility'],'commit':local,'files':len(allowed),'bytes':total}
     (ROOT/'publish_receipt.local.json').write_text(json.dumps(receipt,indent=2));print(json.dumps(receipt,indent=2))
