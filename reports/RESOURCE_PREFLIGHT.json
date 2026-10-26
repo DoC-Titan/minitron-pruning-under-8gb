@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "seconds": 0.7250056000002587,
+  "load_seconds": 4.16144020000047,
+  "loss": 4.636883735656738,
+  "gradient_norm": 3.495779037475586,
+  "memory": {
+    "rss_gib": 1.215606689453125,
+    "process_peak_working_set_gib": 4.272617340087891,
+    "allocated_gib": 5.182532787322998,
+    "reserved_gib": 6.43359375,
+    "system_gpu": {
+      "temperature_c": 57,
+      "memory_used_mib": 7490,
+      "memory_total_mib": 8188,
+      "utilization_percent": 58
+    }
+  },
+  "nonzero_update": true,
+  "training_state_discarded": true,
+  "note": "Smoke tokens excluded; all real jobs start fresh"
+}

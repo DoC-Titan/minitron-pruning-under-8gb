@@ -1,0 +1,540 @@
+{
+  "variant": "moderate_informed_s42_kl",
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "actual_parameter_devices": [
+    "cpu"
+  ],
+  "parameters": 2500806656,
+  "model_load_seconds": 12.676030999999057,
+  "construction_phases": {
+    "load_seconds": 3.7608903999971517,
+    "physical_pruning_seconds": 8.632715499999904,
+    "merge_seconds": 0.2824251000020013
+  },
+  "cases": [
+    {
+      "prompt_tokens": 32,
+      "new_tokens": 16,
+      "batch_size": 1,
+      "runs": [
+        {
+          "preprocess_seconds": 0.0016831000029924326,
+          "transfer_seconds": 2.1899999410379678e-05,
+          "execution_seconds": 4.794152499998745,
+          "postprocess_seconds": 7.270000060088933e-05,
+          "request_e2e_seconds": 4.795930200001749,
+          "continuation": " the North Atlantic Ocean found in coastal waters of Europe and Asia. \n\n Homarus"
+        },
+        {
+          "preprocess_seconds": 0.002196400000684662,
+          "transfer_seconds": 2.1100000594742596e-05,
+          "execution_seconds": 4.756140099998447,
+          "postprocess_seconds": 6.500000017695129e-05,
+          "request_e2e_seconds": 4.7584225999999035,
+          "continuation": " the North Atlantic Ocean found in coastal waters of Europe and Asia. \n\n Homarus"
+        },
+        {
+          "preprocess_seconds": 0.0019094000017503276,
+          "transfer_seconds": 2.1800002286909148e-05,
+          "execution_seconds": 4.776284100000339,
+          "postprocess_seconds": 7.389999882434495e-05,
+          "request_e2e_seconds": 4.778289200003201,
+          "continuation": " the North Atlantic Ocean found in coastal waters of Europe and Asia. \n\n Homarus"
+        },
+        {
+          "preprocess_seconds": 0.0016485999985889066,
+          "transfer_seconds": 1.9600000086938962e-05,
+          "execution_seconds": 4.854434300003049,
+          "postprocess_seconds": 8.270000034826808e-05,
+          "request_e2e_seconds": 4.8561852000020735,
+          "continuation": " the North Atlantic Ocean found in coastal waters of Europe and Asia. \n\n Homarus"
+        },
+        {
+          "preprocess_seconds": 0.0021133999980520457,
+          "transfer_seconds": 2.1600000764010474e-05,
+          "execution_seconds": 4.807921899999201,
+          "postprocess_seconds": 6.950000170036219e-05,
+          "request_e2e_seconds": 4.810126399999717,
+          "continuation": " the North Atlantic Ocean found in coastal waters of Europe and Asia. \n\n Homarus"
+        }
+      ],
+      "median": {
+        "preprocess_seconds": 0.0019094000017503276,
+        "transfer_seconds": 2.1600000764010474e-05,
+        "execution_seconds": 4.794152499998745,
+        "postprocess_seconds": 7.270000060088933e-05,
+        "request_e2e_seconds": 4.795930200001749
+      },
+      "execution_iqr_seconds": 0.06496600000173203,
+      "execution_range_seconds": [
+        4.756140099998447,
+        4.854434300003049
+      ],
+      "generated_tokens_per_second": 3.3373990501979627,
+      "load_inclusive_first_request_seconds": 17.471961200000806,
+      "memory": {
+        "rss_gib": 10.022632598876953,
+        "process_peak_working_set_gib": 14.014328002929688
+      }
+    },
+    {
+      "prompt_tokens": 128,
+      "new_tokens": 16,
+      "batch_size": 1,
+      "runs": [
+        {
+          "preprocess_seconds": 0.001607400001375936,
+          "transfer_seconds": 1.590000101714395e-05,
+          "execution_seconds": 5.990692399998807,
+          "postprocess_seconds": 7.109999933163635e-05,
+          "request_e2e_seconds": 5.992386800000531,
+          "continuation": " carried by the male to the female's mouth where they are fertilized . \n\n"
+        },
+        {
+          "preprocess_seconds": 0.0022621000025537796,
+          "transfer_seconds": 2.2000000171829015e-05,
+          "execution_seconds": 6.00428649999958,
+          "postprocess_seconds": 8.870000237948261e-05,
+          "request_e2e_seconds": 6.006659300004685,
+          "continuation": " carried by the male to the female's mouth where they are fertilized . \n\n"
+        },
+        {
+          "preprocess_seconds": 0.0017063000013877172,
+          "transfer_seconds": 1.80000024556648e-05,
+          "execution_seconds": 5.982862200002273,
+          "postprocess_seconds": 6.539999958476983e-05,
+          "request_e2e_seconds": 5.9846519000057015,
+          "continuation": " carried by the male to the female's mouth where they are fertilized . \n\n"
+        },
+        {
+          "preprocess_seconds": 0.0017177000008814503,
+          "transfer_seconds": 1.8799997633323073e-05,
+          "execution_seconds": 5.916285999999673,
+          "postprocess_seconds": 6.910000229254365e-05,
+          "request_e2e_seconds": 5.91809160000048,
+          "continuation": " carried by the male to the female's mouth where they are fertilized . \n\n"
+        },
+        {
+          "preprocess_seconds": 0.0016863999990164302,
+          "transfer_seconds": 1.599999814061448e-05,
+          "execution_seconds": 5.962986300000921,
+          "postprocess_seconds": 6.520000169984996e-05,
+          "request_e2e_seconds": 5.964753899999778,
+          "continuation": " carried by the male to the female's mouth where they are fertilized . \n\n"
+        }
+      ],
+      "median": {
+        "preprocess_seconds": 0.0017063000013877172,
+        "transfer_seconds": 1.80000024556648e-05,
+        "execution_seconds": 5.982862200002273,
+        "postprocess_seconds": 6.910000229254365e-05,
+        "request_e2e_seconds": 5.9846519000057015
+      },
+      "execution_iqr_seconds": 0.057853299998896546,
+      "execution_range_seconds": [
+        5.916285999999673,
+        6.00428649999958
+      ],
+      "generated_tokens_per_second": 2.6743052848507727,
+      "load_inclusive_first_request_seconds": 18.668417799999588,
+      "memory": {
+        "rss_gib": 10.032535552978516,
+        "process_peak_working_set_gib": 14.014328002929688
+      }
+    },
+    {
+      "prompt_tokens": 512,
+      "new_tokens": 16,
+      "batch_size": 1,
+      "runs": [
+        {
+          "preprocess_seconds": 0.0017645999978412874,
+          "transfer_seconds": 1.7400001524947584e-05,
+          "execution_seconds": 11.847855699998036,
+          "postprocess_seconds": 5.8999998145736754e-05,
+          "request_e2e_seconds": 11.849696699995548,
+          "continuation": "marus is H. americanus , which is found in the Atlantic Ocean ,"
+        },
+        {
+          "preprocess_seconds": 0.0018894999993790407,
+          "transfer_seconds": 1.8200000340584666e-05,
+          "execution_seconds": 12.042008899999928,
+          "postprocess_seconds": 5.7699999160831794e-05,
+          "request_e2e_seconds": 12.043974299998808,
+          "continuation": "marus is H. americanus , which is found in the Atlantic Ocean ,"
+        },
+        {
+          "preprocess_seconds": 0.0020807999972021207,
+          "transfer_seconds": 2.4900000425986946e-05,
+          "execution_seconds": 12.073197900001105,
+          "postprocess_seconds": 6.040000153006986e-05,
+          "request_e2e_seconds": 12.075364000000263,
+          "continuation": "marus is H. americanus , which is found in the Atlantic Ocean ,"
+        },
+        {
+          "preprocess_seconds": 0.0019730000021809246,
+          "transfer_seconds": 1.939999856404029e-05,
+          "execution_seconds": 12.124417300001369,
+          "postprocess_seconds": 6.589999975403771e-05,
+          "request_e2e_seconds": 12.126475600001868,
+          "continuation": "marus is H. americanus , which is found in the Atlantic Ocean ,"
+        },
+        {
+          "preprocess_seconds": 0.0021720000004279427,
+          "transfer_seconds": 1.97000008483883e-05,
+          "execution_seconds": 12.126230099998793,
+          "postprocess_seconds": 5.889999738428742e-05,
+          "request_e2e_seconds": 12.128480699997453,
+          "continuation": "marus is H. americanus , which is found in the Atlantic Ocean ,"
+        }
+      ],
+      "median": {
+        "preprocess_seconds": 0.0019730000021809246,
+        "transfer_seconds": 1.939999856404029e-05,
+        "execution_seconds": 12.073197900001105,
+        "postprocess_seconds": 5.8999998145736754e-05,
+        "request_e2e_seconds": 12.075364000000263
+      },
+      "execution_iqr_seconds": 0.1803914000010991,
+      "execution_range_seconds": [
+        11.847855699998036,
+        12.126230099998793
+      ],
+      "generated_tokens_per_second": 1.3252495430393414,
+      "load_inclusive_first_request_seconds": 24.525727699994604,
+      "memory": {
+        "rss_gib": 10.1156005859375,
+        "process_peak_working_set_gib": 14.014328002929688
+      }
+    }
+  ],
+  "quality": {
+    "test": {
+      "nll": 3.961550374669353,
+      "perplexity": 52.5387175358966,
+      "scored_tokens": 2032,
+      "per_block_nll": [
+        4.4571307324987695,
+        4.0029671736589565,
+        4.138630544106792,
+        4.227490042138287,
+        3.6847846564345472,
+        4.269552396038386,
+        5.17915404312254,
+        3.9466663270484745,
+        3.9201655350332185,
+        2.952766238235113,
+        4.396918829970472,
+        4.011853555994709,
+        3.990322323296014,
+        3.628269225593627,
+        3.027022234098179,
+        3.55111213744156
+      ],
+      "seconds": 34.17595260000235
+    },
+    "piqa": {
+      "accuracy": 0.625,
+      "count": 32,
+      "details": [
+        {
+          "index": 13,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -4.723720550537109,
+            -5.031777858734131
+          ]
+        },
+        {
+          "index": 51,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -2.9872188568115234,
+            -2.900573492050171
+          ]
+        },
+        {
+          "index": 52,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -4.463127136230469,
+            -4.489089012145996
+          ]
+        },
+        {
+          "index": 54,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -2.188154697418213,
+            -3.5599935054779053
+          ]
+        },
+        {
+          "index": 56,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -1.9198837280273438,
+            -2.653400182723999
+          ]
+        },
+        {
+          "index": 61,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -2.7117133140563965,
+            -2.810840368270874
+          ]
+        },
+        {
+          "index": 64,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -2.609123945236206,
+            -2.371204376220703
+          ]
+        },
+        {
+          "index": 65,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -2.7633681297302246,
+            -3.121800184249878
+          ]
+        },
+        {
+          "index": 69,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.5423409938812256,
+            -4.296928882598877
+          ]
+        },
+        {
+          "index": 92,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -2.2463719844818115,
+            -2.675581932067871
+          ]
+        },
+        {
+          "index": 97,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -5.0350422859191895,
+            -3.8765809535980225
+          ]
+        },
+        {
+          "index": 100,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -3.5041213035583496,
+            -3.4752402305603027
+          ]
+        },
+        {
+          "index": 118,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -5.4642486572265625,
+            -5.464495658874512
+          ]
+        },
+        {
+          "index": 134,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -3.5291922092437744,
+            -3.2930777072906494
+          ]
+        },
+        {
+          "index": 139,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -2.90590238571167,
+            -2.8749444484710693
+          ]
+        },
+        {
+          "index": 146,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -2.6342060565948486,
+            -3.074687957763672
+          ]
+        },
+        {
+          "index": 150,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -3.3778393268585205,
+            -4.049906253814697
+          ]
+        },
+        {
+          "index": 165,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -3.5383033752441406,
+            -3.2464346885681152
+          ]
+        },
+        {
+          "index": 167,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -3.476358413696289,
+            -3.4868645668029785
+          ]
+        },
+        {
+          "index": 178,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -3.235912799835205,
+            -2.920635938644409
+          ]
+        },
+        {
+          "index": 183,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.2250616550445557,
+            -3.574207305908203
+          ]
+        },
+        {
+          "index": 191,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -3.811183214187622,
+            -3.597700357437134
+          ]
+        },
+        {
+          "index": 192,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -4.2557477951049805,
+            -5.602481365203857
+          ]
+        },
+        {
+          "index": 195,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.0441389083862305,
+            -3.565244674682617
+          ]
+        },
+        {
+          "index": 197,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -4.5304460525512695,
+            -4.864085674285889
+          ]
+        },
+        {
+          "index": 204,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.899693012237549,
+            -4.0045084953308105
+          ]
+        },
+        {
+          "index": 209,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -3.0499627590179443,
+            -2.737894296646118
+          ]
+        },
+        {
+          "index": 213,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -3.443495273590088,
+            -3.1983301639556885
+          ]
+        },
+        {
+          "index": 216,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -3.5319302082061768,
+            -3.4623703956604004
+          ]
+        },
+        {
+          "index": 228,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -4.6108527183532715,
+            -4.890873432159424
+          ]
+        },
+        {
+          "index": 232,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -4.786362648010254,
+            -5.189020156860352
+          ]
+        },
+        {
+          "index": 236,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -3.785715103149414,
+            -3.5972683429718018
+          ]
+        }
+      ],
+      "seconds": 55.586680100001104,
+      "method": "custom zero-shot length-normalized answer conditional likelihood; not official lm-eval harness"
+    }
+  },
+  "cpu_threads": 4,
+  "warmups": 2,
+  "repeats": 5,
+  "comparison_label": "CPU FP32 vs CUDA FP16 is deployment device+precision, not isolated hardware speedup",
+  "loading_caveat": "Fresh process/model load; OS file cache is uncontrolled, not cold storage latency",
+  "phase_seconds": 249.7230825000006
+}

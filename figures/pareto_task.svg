@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="490" viewBox="0 0 1000 490">
+<rect width="1000" height="490" fill="white"/>
+<text x="40" y="32" font-family="Arial" font-size="21" fill="#172d43">Compression–quality: measured PIQA frontier</text>
+<path d="M85.00,85 V390" stroke="#e4ebee"/><text x="85.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">1.88</text>
+<path d="M85,390 H735" stroke="#e4ebee"/><text x="74" y="394" text-anchor="end" font-family="Arial" font-size="12">59.23</text>
+<path d="M215.00,85 V390" stroke="#e4ebee"/><text x="215.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">2.15</text>
+<path d="M85,330 H735" stroke="#e4ebee"/><text x="74" y="334" text-anchor="end" font-family="Arial" font-size="12">62.67</text>
+<path d="M345.00,85 V390" stroke="#e4ebee"/><text x="345.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">2.41</text>
+<path d="M85,270 H735" stroke="#e4ebee"/><text x="74" y="274" text-anchor="end" font-family="Arial" font-size="12">66.11</text>
+<path d="M475.00,85 V390" stroke="#e4ebee"/><text x="475.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">2.67</text>
+<path d="M85,210 H735" stroke="#e4ebee"/><text x="74" y="214" text-anchor="end" font-family="Arial" font-size="12">69.55</text>
+<path d="M605.00,85 V390" stroke="#e4ebee"/><text x="605.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">2.93</text>
+<path d="M85,150 H735" stroke="#e4ebee"/><text x="74" y="154" text-anchor="end" font-family="Arial" font-size="12">72.99</text>
+<path d="M735.00,85 V390" stroke="#e4ebee"/><text x="735.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">3.19</text>
+<path d="M85,90 H735" stroke="#e4ebee"/><text x="74" y="94" text-anchor="end" font-family="Arial" font-size="12">76.43</text>
+<circle cx="685.04" cy="115.00" r="4.5" fill="#007f83"/>
+<rect x="760" y="95" width="10" height="10" fill="#007f83"/><text x="777" y="105" font-family="Arial" font-size="12">teacher</text>
+<circle cx="392.71" cy="193.49" r="4.5" fill="#ed8446"/>
+<rect x="760" y="124" width="10" height="10" fill="#ed8446"/><text x="777" y="134" font-family="Arial" font-size="12">moderate/random/kl</text>
+<circle cx="392.71" cy="161.51" r="4.5" fill="#5472bb"/>
+<rect x="760" y="153" width="10" height="10" fill="#5472bb"/><text x="777" y="163" font-family="Arial" font-size="12">moderate/informed/kl</text>
+<circle cx="392.71" cy="167.33" r="4.5" fill="#a35691"/>
+<rect x="760" y="182" width="10" height="10" fill="#a35691"/><text x="777" y="192" font-family="Arial" font-size="12">moderate/informed/ce</text>
+<circle cx="134.96" cy="365.00" r="4.5" fill="#3a995f"/>
+<rect x="760" y="211" width="10" height="10" fill="#3a995f"/><text x="777" y="221" font-family="Arial" font-size="12">strong/random/kl</text>
+<circle cx="134.96" cy="274.88" r="4.5" fill="#bb5656"/>
+<rect x="760" y="240" width="10" height="10" fill="#bb5656"/><text x="777" y="250" font-family="Arial" font-size="12">strong/informed/kl</text>
+<circle cx="134.96" cy="283.60" r="4.5" fill="#182d43"/>
+<rect x="760" y="269" width="10" height="10" fill="#182d43"/><text x="777" y="279" font-family="Arial" font-size="12">strong/informed/ce</text>
+<polyline points="134.96,274.88 392.71,161.51 685.04,115.00" fill="none" stroke="#213647" stroke-width="2" stroke-dasharray="6 4"/>
+<circle cx="134.96" cy="274.88" r="4.5" fill="#213647"/>
+<circle cx="392.71" cy="161.51" r="4.5" fill="#213647"/>
+<circle cx="685.04" cy="115.00" r="4.5" fill="#213647"/>
+<rect x="760" y="298" width="10" height="10" fill="#213647"/><text x="777" y="308" font-family="Arial" font-size="12">Observed frontier</text>
+<text x="400" y="452" text-anchor="middle" font-family="Arial" font-size="15">Parameters (billions)</text>
+<text x="23" y="240" transform="rotate(-90 23 240)" text-anchor="middle" font-family="Arial" font-size="15">PIQA accuracy (%) — higher is better</text>
+</svg>

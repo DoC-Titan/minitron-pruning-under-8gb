@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.pt -text
+*.pdf -text
+*.pptx -text
+*.png -text
+*.jpg -text
+*.safetensors -text

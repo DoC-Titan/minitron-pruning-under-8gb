@@ -1,0 +1,14 @@
+Built with Qwen.
+
+Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT, Copyright (c) Alibaba Cloud. All Rights Reserved.
+
+MODIFICATION NOTICE: This independently implemented college research project
+physically removes transformer blocks and coupled FFN channels from Qwen2.5-3B,
+then learns rank-8 q/v LoRA adapters with fixed-budget KL/CE recovery. All derived
+adapters and the local merged checkpoint are modified research artifacts, not
+original Alibaba Cloud or NVIDIA model releases. Exact modifications, groups,
+seeds, objectives and budgets are recorded in config.json, recipes/ and metrics/.
+Retain this notice and licenses/QWEN_RESEARCH_LICENSE.txt with derivatives.
+
+Supplied NVIDIA papers, the course question bank, datasets and dependencies
+remain under their respective owners' terms. See THIRD_PARTY_NOTICES.md.

@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Smaller models. Stronger evidence.",
+    "kicker": "STRUCTURED PRUNING + DISTILLATION | LEVEL 4",
+    "body": [
+      "A Minitron-inspired study under an 8 GiB GPU budget",
+      "Qwen2.5-3B \u2192 physically smaller students",
+      "18 recovery runs \u00b7 3 seeds \u00b7 CPU and CUDA evidence"
+    ],
+    "notes": "Open with the engineering constraint, not a claim of reproducing NVIDIA scale. This is built with Qwen and inspired by Minitron. The project contribution is a controlled, auditable compression and systems study.",
+    "figure": null
+  },
+  {
+    "title": "Does the least-damaging cut recover best?",
+    "kicker": "RESEARCH QUESTION",
+    "body": [
+      "Compare immediate damage with equal-budget recovered quality.",
+      "Test whether the answer changes with compression severity and metric.",
+      "Judge models by quality, parameters, memory and measured execution cost."
+    ],
+    "notes": "Explain that pruning loss and post-recovery quality need not rank architectures identically. Perplexity and downstream task accuracy are different objectives. Negative and metric-dependent results are scientifically useful.",
+    "figure": null
+  },
+  {
+    "title": "A controlled experiment\u2014not a model-size demo",
+    "kicker": "PREREGISTERED DESIGN",
+    "body": [
+      "One installed, pinned 3.086B teacher; no paid API or new model download.",
+      "Two sizes: 32 layers / FFN 9,600 and 28 layers / FFN 8,192.",
+      "Random versus informed pruning \u00d7 3 seeds; six matched CE controls.",
+      "Each run: 196,608 input tokens and 192 optimizer updates."
+    ],
+    "notes": "There are 12 KL recovery runs and six CE controls. Seeds are 42, 123 and 2026. Both methods use the same architecture within each compression level. This is not a broad hyperparameter sweep.",
+    "figure": null
+  },
+  {
+    "title": "Physical pruning with an exact removal recipe",
+    "kicker": "ALGORITHMIC CORRECTNESS",
+    "body": [
+      "Depth: remove internal contiguous blocks; preserve boundary layers.",
+      "Informed depth: calibration NLL; informed FFN: coupled L2 magnitude.",
+      "FFN: slice gate/up rows and matching down columns\u2014not masks.",
+      "Every layer/channel ID is saved; save/reload shape tests passed."
+    ],
+    "notes": "The Qwen gated FFN needs three coupled slices. Residual hidden width remains 2048. The depth procedure is different from the old pilot individual-layer ranking; never mix their provenance.",
+    "figure": null
+  },
+  {
+    "title": "Sensitivity is measured before recovery",
+    "kicker": "CALIBRATION ONLY",
+    "body": [
+      "32 fixed calibration blocks; test data does not rank structures.",
+      "Different depth windows have different immediate damage.",
+      "FFN score-distribution map and exact channel selections are included."
+    ],
+    "notes": "Walk through one depth-window position and its NLL increase. The accompanying FFN map in the report is a magnitude distribution, not an individually ablated neuron causal-effect map.",
+    "figure": "depth_sensitivity.svg"
+  },
+  {
+    "title": "Full-vocabulary KD without two large GPU models",
+    "kicker": "RESOURCE-AWARE TRAINING",
+    "body": [
+      "Teacher target shard \u2192 unload teacher \u2192 recover students.",
+      "Forward KL at T=2 with T\u00b2 scaling; KL-only versus CE-only.",
+      "Rank-8 q/v LoRA, FP16 frozen base, FP32 adapters, checkpointing.",
+      "Atomic checkpoints each update; bounded disk and thermal guards."
+    ],
+    "notes": "Distinguish teacher targets from hidden states. Full-vocabulary logits retain the exact objective, unlike top-k coarsening. Cached shards are deleted only after all consumers have durable receipts. LoRA is not full-weight Minitron recovery.",
+    "figure": null
+  },
+  {
+    "title": "Compression\u2013quality trade-offs, not a universal winner",
+    "kicker": "MEASURED THREE-SEED RESULTS",
+    "body": [
+      "moderate/random/kl: PPL 32.0 \u00b1 2.4; PIQA 70.5%",
+      "moderate/informed/kl: PPL 38.3 \u00b1 0.2; PIQA 72.3%",
+      "moderate/informed/ce: PPL 28.6 \u00b1 0.0; PIQA 72.0%",
+      "strong/random/kl: PPL 72.7 \u00b1 13.3; PIQA 60.7%",
+      "strong/informed/kl: PPL 69.1 \u00b1 0.8; PIQA 65.8%",
+      "strong/informed/ce: PPL 52.3 \u00b1 0.2; PIQA 65.3%"
+    ],
+    "notes": "These are arithmetic means and sample SD over only three seeds. The graph uses mean test NLL; the body uses mean seed perplexity. The finite observed Pareto frontier is descriptive. Do not imply an unmeasured compression-ratio law.",
+    "figure": "pareto_quality.svg"
+  },
+  {
+    "title": "Recovery and the isolated distillation ablation",
+    "kicker": "CONTROLLED SCIENTIFIC COMPARISON",
+    "body": [
+      "moderate: informed minus random KL \u2192 \u0394NLL +0.181, \u0394PIQA +1.8pp",
+      "moderate: KL minus CE informed \u2192 \u0394NLL +0.292, \u0394PIQA +0.3pp",
+      "strong: informed minus random KL \u2192 \u0394NLL -0.040, \u0394PIQA +5.2pp",
+      "strong: KL minus CE informed \u2192 \u0394NLL +0.278, \u0394PIQA +0.5pp",
+      "Matched CE recovery had lower test perplexity at both compression levels."
+    ],
+    "notes": "Lower NLL is better and higher PIQA is better. A negative KL-minus-CE NLL difference favours KD; the measured positive differences here favour CE on perplexity. The small mean PIQA advantage of KL is not evidence of statistical superiority. The control matches initialization, structure, order, learning rate and tokens. This does not prove a 50-times token-efficiency claim.",
+    "figure": "recovery.svg"
+  },
+  {
+    "title": "CPU and CUDA both execute\u2014not just a device flag",
+    "kicker": "SCIENTIFIC QUALITY + EXECUTION AUDIT",
+    "body": [
+      "Complete tiny-transformer train \u2192 prune \u2192 distill on both devices.",
+      "Three-seed FP32 reference; same-weight device benchmark.",
+      "Real teacher and two students: matched quality inputs and PIQA scoring.",
+      "CPU FP32 versus CUDA FP16 is labelled device + precision."
+    ],
+    "notes": "The reduced model demonstrates algorithmic correctness, not 3B CPU training robustness. The real deployment comparison mixes hardware and precision, so the tiny same-weight FP32 experiment provides a clean device comparison. Byte-model and subword-model perplexities are not comparable.",
+    "figure": "tiny_matched_scaling.svg"
+  },
+  {
+    "title": "Where is GPU deployment practically beneficial?",
+    "kicker": "MEASURED WORKLOAD SCALING",
+    "body": [
+      "teacher: 32\u219216: 10.4\u00d7, 128\u219216: 12.6\u00d7, 512\u219216: 22.1\u00d7",
+      "moderate: 32\u219216: 9.4\u00d7, 128\u219216: 11.1\u00d7, 512\u219216: 21.2\u00d7",
+      "strong: 32\u219216: 8.0\u00d7, 128\u219216: 10.0\u00d7, 512\u219216: 18.8\u00d7",
+      "2 warmups \u00b7 5 timings \u00b7 medians + IQR \u00b7 explicit placement",
+      "Loading, preprocessing, transfer and model execution are separate."
+    ],
+    "notes": "These are CPU FP32/CUDA FP16 deployment ratios, not pure hardware speedups. Report observed sampled lengths only; when GPU already wins the smallest case, the exact crossover remains unknown below the sampled range. Check the matched-FP32 tiny plot for overhead-dominated cases.",
+    "figure": "cpu_gpu_scaling.svg"
+  },
+  {
+    "title": "A recoverable run with a visible resource budget",
+    "kicker": "ENGINEERING EVIDENCE",
+    "body": [
+      "Max main training allocation: 5.19 GiB.",
+      "Max sampled training GPU temperature: 65\u00b0C.",
+      "Peak target shard payload: 2.30 GiB.",
+      "Hash-verified checkpoints, corruption fallback, STOP / RESUME.",
+      "All final adapters retained; one merged representative exported."
+    ],
+    "notes": "Allocator peaks are not total board memory. Temperature is sampled, not a continuous hardware assurance; CPU temperature was unavailable. No overclocking or driver changes. A Windows fsync issue was logged and corrected before main training, with no experimental-design change.",
+    "figure": null
+  },
+  {
+    "title": "What this project establishes\u2014and what it does not",
+    "kicker": "CONCLUSION + REPRODUCIBILITY",
+    "body": [
+      "Immediate NLL ranking persisted in 4/6 seed pairs\u2014not universally.",
+      "Executed CPU/GPU protocol, Pareto analysis, sensitivity and objective controls.",
+      "Not an official NVIDIA-scale reproduction or production chatbot.",
+      "Limits: one family/machine, 3 seeds, short context, custom PIQA, no teacher correction.",
+      "Code, raw evidence, recipes, adapters, report and reproduction guide."
+    ],
+    "notes": "Close with the actual outcomes from the tables, including any negative results. Qwen2.5-3B uses a noncommercial research license. TensorRT-LLM was conditionally excluded because the cited release requires Linux, while this environment is native Windows. Do not present PyTorch throughput as TensorRT. References: supplied Minitron technical report, question-bank p1/pp20\u201321, official Qwen and NVIDIA documentation.",
+    "figure": null
+  }
+]

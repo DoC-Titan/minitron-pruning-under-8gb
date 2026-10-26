@@ -1,0 +1,488 @@
+{"stage": "worker.py teacher", "seconds": 40.646001800000704, "returncode": 0, "finished": "2026-10-26T17:56:26.725884+05:30"}
+{"stage": "tiny_reference.py --device cpu", "seconds": 52.39727159999984, "returncode": 0, "finished": "2026-10-26T17:57:19.132488+05:30"}
+{"stage": "tiny_reference.py --device cuda", "seconds": 115.46873189999951, "returncode": 0, "finished": "2026-10-26T17:59:14.616238+05:30"}
+{"stage": "worker.py cache --shard 0", "seconds": 14.177324000000226, "returncode": 1, "finished": "2026-10-26T17:59:28.815733+05:30"}
+{"stage": "worker.py cache --shard 0", "seconds": 17.710949999999684, "returncode": 0, "finished": "2026-10-26T18:03:38.145059+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 0", "seconds": 32.70185349999974, "returncode": 0, "finished": "2026-10-26T18:04:10.873668+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 0", "seconds": 32.16172389999974, "returncode": 0, "finished": "2026-10-26T18:04:43.056119+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 0", "seconds": 32.607201100000566, "returncode": 0, "finished": "2026-10-26T18:05:15.687787+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 0", "seconds": 32.785495699999956, "returncode": 0, "finished": "2026-10-26T18:05:48.499146+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 0", "seconds": 30.15302619999966, "returncode": 0, "finished": "2026-10-26T18:06:18.673898+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 0", "seconds": 32.449394799999936, "returncode": 0, "finished": "2026-10-26T18:06:51.147092+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 0", "seconds": 30.04645049999999, "returncode": 0, "finished": "2026-10-26T18:07:21.221129+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 0", "seconds": 32.30521999999928, "returncode": 0, "finished": "2026-10-26T18:07:53.553453+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 0", "seconds": 29.767654199999924, "returncode": 0, "finished": "2026-10-26T18:08:23.348894+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 0", "seconds": 30.30683180000051, "returncode": 0, "finished": "2026-10-26T18:08:53.684694+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 0", "seconds": 29.9411712000001, "returncode": 0, "finished": "2026-10-26T18:09:23.656846+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 0", "seconds": 29.5288371000006, "returncode": 0, "finished": "2026-10-26T18:09:53.218307+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 0", "seconds": 29.576992500000415, "returncode": 0, "finished": "2026-10-26T18:10:22.823591+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 0", "seconds": 27.051991799999996, "returncode": 0, "finished": "2026-10-26T18:10:49.910246+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 0", "seconds": 29.35244049999983, "returncode": 0, "finished": "2026-10-26T18:11:19.297489+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 0", "seconds": 27.124537200000304, "returncode": 0, "finished": "2026-10-26T18:11:46.450155+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 0", "seconds": 29.53760130000046, "returncode": 0, "finished": "2026-10-26T18:12:16.020028+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 0", "seconds": 27.375257799999417, "returncode": 0, "finished": "2026-10-26T18:12:43.435813+05:30"}
+{"stage": "worker.py cache --shard 1", "seconds": 16.19336519999979, "returncode": 0, "finished": "2026-10-26T18:13:01.964981+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 1", "seconds": 28.33154949999971, "returncode": 0, "finished": "2026-10-26T18:13:30.325939+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 1", "seconds": 28.185906599999726, "returncode": 0, "finished": "2026-10-26T18:13:58.554122+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 1", "seconds": 28.277714800000467, "returncode": 0, "finished": "2026-10-26T18:14:26.861536+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 1", "seconds": 28.218417500000214, "returncode": 0, "finished": "2026-10-26T18:14:55.123127+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 1", "seconds": 26.3485711000003, "returncode": 0, "finished": "2026-10-26T18:15:21.506285+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 1", "seconds": 28.453348400000323, "returncode": 0, "finished": "2026-10-26T18:15:50.004638+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 1", "seconds": 26.003747900000235, "returncode": 0, "finished": "2026-10-26T18:16:16.045483+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 1", "seconds": 28.208912399999463, "returncode": 0, "finished": "2026-10-26T18:16:44.292510+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 1", "seconds": 26.1282355000003, "returncode": 0, "finished": "2026-10-26T18:17:10.452655+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 1", "seconds": 26.258389200000238, "returncode": 0, "finished": "2026-10-26T18:17:36.742865+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 1", "seconds": 26.295349500000157, "returncode": 0, "finished": "2026-10-26T18:18:03.079554+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 1", "seconds": 26.205297999999857, "returncode": 0, "finished": "2026-10-26T18:18:29.325170+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 1", "seconds": 26.299566500000765, "returncode": 0, "finished": "2026-10-26T18:18:55.657690+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 1", "seconds": 24.10286720000022, "returncode": 0, "finished": "2026-10-26T18:19:19.798562+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 1", "seconds": 26.33505140000034, "returncode": 0, "finished": "2026-10-26T18:19:46.164255+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 1", "seconds": 24.1437492999994, "returncode": 0, "finished": "2026-10-26T18:20:10.355131+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 1", "seconds": 26.21119759999965, "returncode": 0, "finished": "2026-10-26T18:20:36.599583+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 1", "seconds": 24.573985099999845, "returncode": 0, "finished": "2026-10-26T18:21:01.215944+05:30"}
+{"stage": "worker.py cache --shard 2", "seconds": 16.435683200000312, "returncode": 0, "finished": "2026-10-26T18:21:19.993832+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 2", "seconds": 28.402621799999906, "returncode": 0, "finished": "2026-10-26T18:21:48.434758+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 2", "seconds": 28.41012640000008, "returncode": 0, "finished": "2026-10-26T18:22:16.879618+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 2", "seconds": 28.261430700000346, "returncode": 0, "finished": "2026-10-26T18:22:45.196015+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 2", "seconds": 28.36471260000053, "returncode": 0, "finished": "2026-10-26T18:23:13.594442+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 2", "seconds": 25.50165459999971, "returncode": 0, "finished": "2026-10-26T18:23:39.143597+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 2", "seconds": 28.632802600000105, "returncode": 0, "finished": "2026-10-26T18:24:07.813626+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 2", "seconds": 26.274502799999937, "returncode": 0, "finished": "2026-10-26T18:24:34.129493+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 2", "seconds": 28.43579460000001, "returncode": 0, "finished": "2026-10-26T18:25:02.603163+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 2", "seconds": 26.19692120000036, "returncode": 0, "finished": "2026-10-26T18:25:28.835996+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 2", "seconds": 26.543883000000278, "returncode": 0, "finished": "2026-10-26T18:25:55.418001+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 2", "seconds": 26.338478299999224, "returncode": 0, "finished": "2026-10-26T18:26:21.796748+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 2", "seconds": 26.217565800000557, "returncode": 0, "finished": "2026-10-26T18:26:48.054246+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 2", "seconds": 26.330794199999218, "returncode": 0, "finished": "2026-10-26T18:27:14.420073+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 2", "seconds": 24.214034800000263, "returncode": 0, "finished": "2026-10-26T18:27:38.669265+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 2", "seconds": 26.17492929999935, "returncode": 0, "finished": "2026-10-26T18:28:04.880813+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 2", "seconds": 24.356050100000175, "returncode": 0, "finished": "2026-10-26T18:28:29.278269+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 2", "seconds": 26.176789200000712, "returncode": 0, "finished": "2026-10-26T18:28:55.491782+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 2", "seconds": 24.18452669999988, "returncode": 0, "finished": "2026-10-26T18:29:19.718067+05:30"}
+{"stage": "worker.py cache --shard 3", "seconds": 16.351376800000253, "returncode": 0, "finished": "2026-10-26T18:29:38.390315+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 3", "seconds": 28.271918999999798, "returncode": 0, "finished": "2026-10-26T18:30:06.698360+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 3", "seconds": 28.41102090000004, "returncode": 0, "finished": "2026-10-26T18:30:35.147448+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 3", "seconds": 28.427063300000555, "returncode": 0, "finished": "2026-10-26T18:31:03.616676+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 3", "seconds": 28.079868499999975, "returncode": 0, "finished": "2026-10-26T18:31:31.736612+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 3", "seconds": 26.202577300000485, "returncode": 0, "finished": "2026-10-26T18:31:57.978000+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 3", "seconds": 28.17003990000012, "returncode": 0, "finished": "2026-10-26T18:32:26.189014+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 3", "seconds": 25.951467599999887, "returncode": 0, "finished": "2026-10-26T18:32:52.179927+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 3", "seconds": 28.203656200000296, "returncode": 0, "finished": "2026-10-26T18:33:20.427009+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 3", "seconds": 26.22473590000027, "returncode": 0, "finished": "2026-10-26T18:33:46.691174+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 3", "seconds": 26.15040880000015, "returncode": 0, "finished": "2026-10-26T18:34:12.883570+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 3", "seconds": 26.019792600000073, "returncode": 0, "finished": "2026-10-26T18:34:38.943660+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 3", "seconds": 26.10828500000025, "returncode": 0, "finished": "2026-10-26T18:35:05.096332+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 3", "seconds": 26.36861620000036, "returncode": 0, "finished": "2026-10-26T18:35:31.507984+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 3", "seconds": 24.310562100000425, "returncode": 0, "finished": "2026-10-26T18:35:55.857225+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 3", "seconds": 26.317051799999717, "returncode": 0, "finished": "2026-10-26T18:36:22.223020+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 3", "seconds": 24.06811629999993, "returncode": 0, "finished": "2026-10-26T18:36:46.334779+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 3", "seconds": 26.218649700000242, "returncode": 0, "finished": "2026-10-26T18:37:12.592270+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 3", "seconds": 24.141389100000197, "returncode": 0, "finished": "2026-10-26T18:37:36.770703+05:30"}
+{"stage": "worker.py cache --shard 4", "seconds": 16.23437920000015, "returncode": 0, "finished": "2026-10-26T18:37:55.403436+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 4", "seconds": 28.238968199999363, "returncode": 0, "finished": "2026-10-26T18:38:23.686384+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 4", "seconds": 28.192216299999927, "returncode": 0, "finished": "2026-10-26T18:38:51.918181+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 4", "seconds": 28.222885500000302, "returncode": 0, "finished": "2026-10-26T18:39:20.184520+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 4", "seconds": 28.396113599999808, "returncode": 0, "finished": "2026-10-26T18:39:48.624665+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 4", "seconds": 25.964714400000048, "returncode": 0, "finished": "2026-10-26T18:40:14.628028+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 4", "seconds": 28.346423799999684, "returncode": 0, "finished": "2026-10-26T18:40:43.018714+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 4", "seconds": 26.04411010000058, "returncode": 0, "finished": "2026-10-26T18:41:09.105930+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 4", "seconds": 28.40554340000017, "returncode": 0, "finished": "2026-10-26T18:41:37.556606+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 4", "seconds": 26.011507500000334, "returncode": 0, "finished": "2026-10-26T18:42:03.607831+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 4", "seconds": 26.289390099999764, "returncode": 0, "finished": "2026-10-26T18:42:29.936170+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 4", "seconds": 26.16279829999985, "returncode": 0, "finished": "2026-10-26T18:42:56.147815+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 4", "seconds": 26.267021399999976, "returncode": 0, "finished": "2026-10-26T18:43:22.455854+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 4", "seconds": 26.282102500000292, "returncode": 0, "finished": "2026-10-26T18:43:48.779324+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 4", "seconds": 23.92886610000005, "returncode": 0, "finished": "2026-10-26T18:44:12.753564+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 4", "seconds": 26.631200400000125, "returncode": 0, "finished": "2026-10-26T18:44:39.427761+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 4", "seconds": 24.112860600000204, "returncode": 0, "finished": "2026-10-26T18:45:03.581092+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 4", "seconds": 26.12909000000036, "returncode": 0, "finished": "2026-10-26T18:45:29.759973+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 4", "seconds": 24.107695500000773, "returncode": 0, "finished": "2026-10-26T18:45:53.908702+05:30"}
+{"stage": "worker.py cache --shard 5", "seconds": 16.38848059999964, "returncode": 0, "finished": "2026-10-26T18:46:12.642092+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 5", "seconds": 31.22431879999931, "returncode": 0, "finished": "2026-10-26T18:46:43.907088+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 5", "seconds": 31.348337999999785, "returncode": 0, "finished": "2026-10-26T18:47:15.297638+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 5", "seconds": 31.43723680000039, "returncode": 0, "finished": "2026-10-26T18:47:46.775862+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 5", "seconds": 31.179296700000123, "returncode": 0, "finished": "2026-10-26T18:48:18.003978+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 5", "seconds": 29.14069599999948, "returncode": 0, "finished": "2026-10-26T18:48:47.186327+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 5", "seconds": 31.22483150000062, "returncode": 0, "finished": "2026-10-26T18:49:18.456230+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 5", "seconds": 29.028944599999704, "returncode": 0, "finished": "2026-10-26T18:49:47.530853+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 5", "seconds": 31.448333500000444, "returncode": 0, "finished": "2026-10-26T18:50:19.029237+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 5", "seconds": 29.20014270000047, "returncode": 0, "finished": "2026-10-26T18:50:48.270586+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 5", "seconds": 29.09479250000004, "returncode": 0, "finished": "2026-10-26T18:51:17.411246+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 5", "seconds": 29.133758699999817, "returncode": 0, "finished": "2026-10-26T18:51:46.593719+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 5", "seconds": 29.05536409999968, "returncode": 0, "finished": "2026-10-26T18:52:15.704620+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 5", "seconds": 29.164162799999758, "returncode": 0, "finished": "2026-10-26T18:52:44.912072+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 5", "seconds": 26.82410600000003, "returncode": 0, "finished": "2026-10-26T18:53:11.786120+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 5", "seconds": 29.081655599999976, "returncode": 0, "finished": "2026-10-26T18:53:40.914997+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 5", "seconds": 26.921243499999946, "returncode": 0, "finished": "2026-10-26T18:54:07.880804+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 5", "seconds": 29.24541429999954, "returncode": 0, "finished": "2026-10-26T18:54:37.175095+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 5", "seconds": 26.984665800000585, "returncode": 0, "finished": "2026-10-26T18:55:04.211750+05:30"}
+{"stage": "worker.py cache --shard 6", "seconds": 16.340311500000098, "returncode": 0, "finished": "2026-10-26T18:55:22.906982+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 6", "seconds": 28.356322900000123, "returncode": 0, "finished": "2026-10-26T18:55:51.310803+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 6", "seconds": 28.171512099999745, "returncode": 0, "finished": "2026-10-26T18:56:19.525919+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 6", "seconds": 28.19985540000016, "returncode": 0, "finished": "2026-10-26T18:56:47.775582+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 6", "seconds": 28.310034500000256, "returncode": 0, "finished": "2026-10-26T18:57:16.140759+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 6", "seconds": 26.091327600000113, "returncode": 0, "finished": "2026-10-26T18:57:42.281543+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 6", "seconds": 28.17632499999945, "returncode": 0, "finished": "2026-10-26T18:58:10.509897+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 6", "seconds": 26.086707800000113, "returncode": 0, "finished": "2026-10-26T18:58:36.647139+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 6", "seconds": 28.273164700000052, "returncode": 0, "finished": "2026-10-26T18:59:04.971218+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 6", "seconds": 26.03387649999968, "returncode": 0, "finished": "2026-10-26T18:59:31.057251+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 6", "seconds": 26.210949000000255, "returncode": 0, "finished": "2026-10-26T18:59:57.323101+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 6", "seconds": 26.35227500000019, "returncode": 0, "finished": "2026-10-26T19:00:23.722111+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 6", "seconds": 26.14627070000006, "returncode": 0, "finished": "2026-10-26T19:00:49.921267+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 6", "seconds": 26.063320699999167, "returncode": 0, "finished": "2026-10-26T19:01:16.032911+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 6", "seconds": 24.092346199999156, "returncode": 0, "finished": "2026-10-26T19:01:40.173888+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 6", "seconds": 26.159937000000355, "returncode": 0, "finished": "2026-10-26T19:02:06.389621+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 6", "seconds": 24.10462600000028, "returncode": 0, "finished": "2026-10-26T19:02:30.543035+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 6", "seconds": 26.86402839999937, "returncode": 0, "finished": "2026-10-26T19:02:57.458841+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 6", "seconds": 24.826232100000198, "returncode": 0, "finished": "2026-10-26T19:03:22.333014+05:30"}
+{"stage": "worker.py cache --shard 7", "seconds": 17.182546599999114, "returncode": 0, "finished": "2026-10-26T19:03:41.944935+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 7", "seconds": 30.233392399999502, "returncode": 0, "finished": "2026-10-26T19:04:12.235586+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 7", "seconds": 28.520586200000253, "returncode": 0, "finished": "2026-10-26T19:04:40.809595+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 7", "seconds": 28.03073790000053, "returncode": 0, "finished": "2026-10-26T19:05:08.883809+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 7", "seconds": 27.9292547999994, "returncode": 0, "finished": "2026-10-26T19:05:36.857834+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 7", "seconds": 25.87389339999936, "returncode": 0, "finished": "2026-10-26T19:06:02.786126+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 7", "seconds": 28.134087699998418, "returncode": 0, "finished": "2026-10-26T19:06:30.968525+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 7", "seconds": 26.013130700001057, "returncode": 0, "finished": "2026-10-26T19:06:57.036553+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 7", "seconds": 28.08120719999897, "returncode": 0, "finished": "2026-10-26T19:07:25.171040+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 7", "seconds": 25.977079100000992, "returncode": 0, "finished": "2026-10-26T19:07:51.203447+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 7", "seconds": 25.949526700000206, "returncode": 0, "finished": "2026-10-26T19:08:17.202593+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 7", "seconds": 26.2749831000001, "returncode": 0, "finished": "2026-10-26T19:08:43.533013+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 7", "seconds": 26.302510699999402, "returncode": 0, "finished": "2026-10-26T19:09:09.884844+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 7", "seconds": 26.294099599999754, "returncode": 0, "finished": "2026-10-26T19:09:36.229889+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 7", "seconds": 24.248295999999755, "returncode": 0, "finished": "2026-10-26T19:10:00.532581+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 7", "seconds": 26.36149580000165, "returncode": 0, "finished": "2026-10-26T19:10:26.944328+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 7", "seconds": 24.138845699999365, "returncode": 0, "finished": "2026-10-26T19:10:51.135177+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 7", "seconds": 26.239170599999852, "returncode": 0, "finished": "2026-10-26T19:11:17.426555+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 7", "seconds": 24.108677099999113, "returncode": 0, "finished": "2026-10-26T19:11:41.587647+05:30"}
+{"stage": "worker.py cache --shard 8", "seconds": 16.38805390000016, "returncode": 0, "finished": "2026-10-26T19:12:00.353687+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 8", "seconds": 28.147033100000044, "returncode": 0, "finished": "2026-10-26T19:12:28.548631+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 8", "seconds": 28.077541099999507, "returncode": 0, "finished": "2026-10-26T19:12:56.676909+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 8", "seconds": 28.116172000000006, "returncode": 0, "finished": "2026-10-26T19:13:24.843172+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 8", "seconds": 28.200072900001032, "returncode": 0, "finished": "2026-10-26T19:13:53.095879+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 8", "seconds": 26.007558000001154, "returncode": 0, "finished": "2026-10-26T19:14:19.157498+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 8", "seconds": 28.25766240000121, "returncode": 0, "finished": "2026-10-26T19:14:47.469098+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 8", "seconds": 26.04362029999902, "returncode": 0, "finished": "2026-10-26T19:15:13.555755+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 8", "seconds": 28.19869699999981, "returncode": 0, "finished": "2026-10-26T19:15:41.813764+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 8", "seconds": 26.052711199999976, "returncode": 0, "finished": "2026-10-26T19:16:07.921127+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 8", "seconds": 26.27271389999987, "returncode": 0, "finished": "2026-10-26T19:16:34.249040+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 8", "seconds": 26.204539499998646, "returncode": 0, "finished": "2026-10-26T19:17:00.510684+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 8", "seconds": 26.13218130000132, "returncode": 0, "finished": "2026-10-26T19:17:26.697243+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 8", "seconds": 26.340159800000038, "returncode": 0, "finished": "2026-10-26T19:17:53.096400+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 8", "seconds": 24.174943399999393, "returncode": 0, "finished": "2026-10-26T19:18:17.328942+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 8", "seconds": 26.23119669999869, "returncode": 0, "finished": "2026-10-26T19:18:43.607363+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 8", "seconds": 24.062947399999757, "returncode": 0, "finished": "2026-10-26T19:19:07.723754+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 8", "seconds": 26.200457500000994, "returncode": 0, "finished": "2026-10-26T19:19:33.977178+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 8", "seconds": 24.124592199999825, "returncode": 0, "finished": "2026-10-26T19:19:58.154898+05:30"}
+{"stage": "worker.py cache --shard 9", "seconds": 16.37353069999881, "returncode": 0, "finished": "2026-10-26T19:20:16.879298+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 9", "seconds": 28.260371500000474, "returncode": 0, "finished": "2026-10-26T19:20:45.195037+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 9", "seconds": 28.195001900001444, "returncode": 0, "finished": "2026-10-26T19:21:13.439834+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 9", "seconds": 28.082049099999495, "returncode": 0, "finished": "2026-10-26T19:21:41.581284+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 9", "seconds": 28.29741919999833, "returncode": 0, "finished": "2026-10-26T19:22:09.933912+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 9", "seconds": 25.85529140000108, "returncode": 0, "finished": "2026-10-26T19:22:35.842066+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 9", "seconds": 28.021418300000732, "returncode": 0, "finished": "2026-10-26T19:23:03.919733+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 9", "seconds": 25.868669200001023, "returncode": 0, "finished": "2026-10-26T19:23:29.844420+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 9", "seconds": 27.945213799999692, "returncode": 0, "finished": "2026-10-26T19:23:57.842883+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 9", "seconds": 26.092856700000993, "returncode": 0, "finished": "2026-10-26T19:24:23.990035+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 9", "seconds": 26.09042969999973, "returncode": 0, "finished": "2026-10-26T19:24:50.137111+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 9", "seconds": 26.263938000000053, "returncode": 0, "finished": "2026-10-26T19:25:16.455195+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 9", "seconds": 26.379038799999762, "returncode": 0, "finished": "2026-10-26T19:25:42.890128+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 9", "seconds": 26.195355400001063, "returncode": 0, "finished": "2026-10-26T19:26:09.138624+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 9", "seconds": 24.08589220000067, "returncode": 0, "finished": "2026-10-26T19:26:33.279482+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 9", "seconds": 26.1151665999987, "returncode": 0, "finished": "2026-10-26T19:26:59.449487+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 9", "seconds": 24.149670299999343, "returncode": 0, "finished": "2026-10-26T19:27:23.652868+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 9", "seconds": 26.142347799999698, "returncode": 0, "finished": "2026-10-26T19:27:49.852650+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 9", "seconds": 23.779514299998482, "returncode": 0, "finished": "2026-10-26T19:28:13.689473+05:30"}
+{"stage": "worker.py cache --shard 10", "seconds": 16.36508059999869, "returncode": 0, "finished": "2026-10-26T19:28:32.404812+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 10", "seconds": 28.02125680000063, "returncode": 0, "finished": "2026-10-26T19:29:00.483094+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 10", "seconds": 28.334205099999963, "returncode": 0, "finished": "2026-10-26T19:29:28.870243+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 10", "seconds": 28.251222300001245, "returncode": 0, "finished": "2026-10-26T19:29:57.183371+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 10", "seconds": 28.20850369999971, "returncode": 0, "finished": "2026-10-26T19:30:25.484350+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 10", "seconds": 26.135404499998913, "returncode": 0, "finished": "2026-10-26T19:30:51.683604+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 10", "seconds": 28.113212599999315, "returncode": 0, "finished": "2026-10-26T19:31:19.853586+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 10", "seconds": 25.923682599999665, "returncode": 0, "finished": "2026-10-26T19:31:45.828334+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 10", "seconds": 28.050862200001575, "returncode": 0, "finished": "2026-10-26T19:32:13.939331+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 10", "seconds": 26.09553649999907, "returncode": 0, "finished": "2026-10-26T19:32:40.088466+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 10", "seconds": 26.145794599999135, "returncode": 0, "finished": "2026-10-26T19:33:06.291827+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 10", "seconds": 26.31341799999973, "returncode": 0, "finished": "2026-10-26T19:33:32.661686+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 10", "seconds": 26.221697399998448, "returncode": 0, "finished": "2026-10-26T19:33:58.936496+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 10", "seconds": 26.49403379999967, "returncode": 0, "finished": "2026-10-26T19:34:25.489165+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 10", "seconds": 23.98288599999978, "returncode": 0, "finished": "2026-10-26T19:34:49.530153+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 10", "seconds": 26.2996179999991, "returncode": 0, "finished": "2026-10-26T19:35:15.887630+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 10", "seconds": 24.278026699999828, "returncode": 0, "finished": "2026-10-26T19:35:40.224206+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 10", "seconds": 25.96599999999853, "returncode": 0, "finished": "2026-10-26T19:36:06.248797+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 10", "seconds": 23.94520729999931, "returncode": 0, "finished": "2026-10-26T19:36:30.252356+05:30"}
+{"stage": "worker.py cache --shard 11", "seconds": 16.423740399999588, "returncode": 0, "finished": "2026-10-26T19:36:49.034476+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 11", "seconds": 31.527562499999476, "returncode": 0, "finished": "2026-10-26T19:37:20.620970+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 11", "seconds": 31.37667599999986, "returncode": 0, "finished": "2026-10-26T19:37:52.049717+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 11", "seconds": 31.469253999999637, "returncode": 0, "finished": "2026-10-26T19:38:23.581532+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 11", "seconds": 31.30696809999972, "returncode": 0, "finished": "2026-10-26T19:38:54.947077+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 11", "seconds": 29.093891099999382, "returncode": 0, "finished": "2026-10-26T19:39:24.100293+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 11", "seconds": 31.131462499999543, "returncode": 0, "finished": "2026-10-26T19:39:55.293731+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 11", "seconds": 29.069895300001008, "returncode": 0, "finished": "2026-10-26T19:40:24.421391+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 11", "seconds": 31.147801700000855, "returncode": 0, "finished": "2026-10-26T19:40:55.627182+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 11", "seconds": 29.118477599999096, "returncode": 0, "finished": "2026-10-26T19:41:24.800648+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 11", "seconds": 29.3180811000002, "returncode": 0, "finished": "2026-10-26T19:41:54.179380+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 11", "seconds": 28.817020100001173, "returncode": 0, "finished": "2026-10-26T19:42:23.057001+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 11", "seconds": 28.215696300001582, "returncode": 0, "finished": "2026-10-26T19:42:51.327496+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 11", "seconds": 28.99463669999932, "returncode": 0, "finished": "2026-10-26T19:43:20.384412+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 11", "seconds": 27.132831299999452, "returncode": 0, "finished": "2026-10-26T19:43:47.579314+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 11", "seconds": 29.16492300000027, "returncode": 0, "finished": "2026-10-26T19:44:16.795603+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 11", "seconds": 26.669836199998826, "returncode": 0, "finished": "2026-10-26T19:44:43.531636+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 11", "seconds": 29.196979199999987, "returncode": 0, "finished": "2026-10-26T19:45:12.784903+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 11", "seconds": 26.956333399999494, "returncode": 0, "finished": "2026-10-26T19:45:39.800670+05:30"}
+{"stage": "worker.py cache --shard 12", "seconds": 16.401805299999978, "returncode": 0, "finished": "2026-10-26T19:45:58.554241+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 12", "seconds": 28.608348699999624, "returncode": 0, "finished": "2026-10-26T19:46:27.220039+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 12", "seconds": 28.45461240000077, "returncode": 0, "finished": "2026-10-26T19:46:55.735722+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 12", "seconds": 28.154617099999086, "returncode": 0, "finished": "2026-10-26T19:47:23.951483+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 12", "seconds": 28.193991000000096, "returncode": 0, "finished": "2026-10-26T19:47:52.208892+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 12", "seconds": 25.992266399998698, "returncode": 0, "finished": "2026-10-26T19:48:18.258059+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 12", "seconds": 28.37692160000006, "returncode": 0, "finished": "2026-10-26T19:48:46.705141+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 12", "seconds": 26.134328400001323, "returncode": 0, "finished": "2026-10-26T19:49:12.898577+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 12", "seconds": 28.201719599999706, "returncode": 0, "finished": "2026-10-26T19:49:41.163688+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 12", "seconds": 26.015364599999884, "returncode": 0, "finished": "2026-10-26T19:50:07.246785+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 12", "seconds": 26.29231549999895, "returncode": 0, "finished": "2026-10-26T19:50:33.599485+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 12", "seconds": 26.380454099999042, "returncode": 0, "finished": "2026-10-26T19:51:00.036688+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 12", "seconds": 26.28279499999917, "returncode": 0, "finished": "2026-10-26T19:51:26.376864+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 12", "seconds": 26.285048199999437, "returncode": 0, "finished": "2026-10-26T19:51:52.721922+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 12", "seconds": 24.071353600000293, "returncode": 0, "finished": "2026-10-26T19:52:16.859278+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 12", "seconds": 25.997057100001257, "returncode": 0, "finished": "2026-10-26T19:52:42.916188+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 12", "seconds": 24.092549499999222, "returncode": 0, "finished": "2026-10-26T19:53:07.069615+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 12", "seconds": 26.288562499999898, "returncode": 0, "finished": "2026-10-26T19:53:33.423585+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 12", "seconds": 24.305300299998635, "returncode": 0, "finished": "2026-10-26T19:53:57.797706+05:30"}
+{"stage": "worker.py cache --shard 13", "seconds": 16.370391099999324, "returncode": 0, "finished": "2026-10-26T19:54:16.517292+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 13", "seconds": 28.096670700000686, "returncode": 0, "finished": "2026-10-26T19:54:44.674703+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 13", "seconds": 28.215104000000792, "returncode": 0, "finished": "2026-10-26T19:55:12.957116+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 13", "seconds": 28.20892769999955, "returncode": 0, "finished": "2026-10-26T19:55:41.227604+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 13", "seconds": 28.240780500000255, "returncode": 0, "finished": "2026-10-26T19:56:09.534323+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 13", "seconds": 26.02282319999904, "returncode": 0, "finished": "2026-10-26T19:56:35.621092+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 13", "seconds": 28.16243939999913, "returncode": 0, "finished": "2026-10-26T19:57:03.848488+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 13", "seconds": 26.083984499999133, "returncode": 0, "finished": "2026-10-26T19:57:29.998496+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 13", "seconds": 28.269709899999725, "returncode": 0, "finished": "2026-10-26T19:57:58.330949+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 13", "seconds": 25.874100900000485, "returncode": 0, "finished": "2026-10-26T19:58:24.273901+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 13", "seconds": 26.144833199999994, "returncode": 0, "finished": "2026-10-26T19:58:50.479720+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 13", "seconds": 26.309619400000884, "returncode": 0, "finished": "2026-10-26T19:59:16.857528+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 13", "seconds": 26.16347339999993, "returncode": 0, "finished": "2026-10-26T19:59:43.085861+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 13", "seconds": 26.168586900001173, "returncode": 0, "finished": "2026-10-26T20:00:09.314776+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 13", "seconds": 24.152642200000628, "returncode": 0, "finished": "2026-10-26T20:00:33.534284+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 13", "seconds": 26.258604300001025, "returncode": 0, "finished": "2026-10-26T20:00:59.854180+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 13", "seconds": 24.17510570000013, "returncode": 0, "finished": "2026-10-26T20:01:24.094955+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 13", "seconds": 26.142479500000263, "returncode": 0, "finished": "2026-10-26T20:01:50.302524+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 13", "seconds": 24.174941299999773, "returncode": 0, "finished": "2026-10-26T20:02:14.539306+05:30"}
+{"stage": "worker.py cache --shard 14", "seconds": 16.388677499999176, "returncode": 0, "finished": "2026-10-26T20:02:33.271911+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 14", "seconds": 28.198874899999282, "returncode": 0, "finished": "2026-10-26T20:03:01.534145+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 14", "seconds": 28.009583700000803, "returncode": 0, "finished": "2026-10-26T20:03:29.607718+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 14", "seconds": 28.00003729999844, "returncode": 0, "finished": "2026-10-26T20:03:57.677645+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 14", "seconds": 28.30198879999989, "returncode": 0, "finished": "2026-10-26T20:04:26.039117+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 14", "seconds": 25.892835800001194, "returncode": 0, "finished": "2026-10-26T20:04:52.000879+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 14", "seconds": 28.271393900000476, "returncode": 0, "finished": "2026-10-26T20:05:20.333205+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 14", "seconds": 26.198273699999845, "returncode": 0, "finished": "2026-10-26T20:05:46.594839+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 14", "seconds": 28.08090689999881, "returncode": 0, "finished": "2026-10-26T20:06:14.739759+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 14", "seconds": 26.070409500000096, "returncode": 0, "finished": "2026-10-26T20:06:40.880558+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 14", "seconds": 26.271639700000378, "returncode": 0, "finished": "2026-10-26T20:07:07.213130+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 14", "seconds": 26.469761399999697, "returncode": 0, "finished": "2026-10-26T20:07:33.755781+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 14", "seconds": 26.191762700000254, "returncode": 0, "finished": "2026-10-26T20:08:00.008869+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 14", "seconds": 26.30820660000063, "returncode": 0, "finished": "2026-10-26T20:08:26.381902+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 14", "seconds": 24.210889300000417, "returncode": 0, "finished": "2026-10-26T20:08:50.660299+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 14", "seconds": 26.417495400000917, "returncode": 0, "finished": "2026-10-26T20:09:17.146999+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 14", "seconds": 24.802792500000578, "returncode": 0, "finished": "2026-10-26T20:09:42.012287+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 14", "seconds": 26.8288119000008, "returncode": 0, "finished": "2026-10-26T20:10:08.911231+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 14", "seconds": 24.420286800001122, "returncode": 0, "finished": "2026-10-26T20:10:33.395920+05:30"}
+{"stage": "worker.py cache --shard 15", "seconds": 16.814953899998727, "returncode": 0, "finished": "2026-10-26T20:10:52.660004+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 15", "seconds": 30.037394500001028, "returncode": 0, "finished": "2026-10-26T20:11:22.767352+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 15", "seconds": 28.446061600001485, "returncode": 0, "finished": "2026-10-26T20:11:51.291410+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 15", "seconds": 24.829026100000192, "returncode": 0, "finished": "2026-10-26T20:12:16.179760+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 15", "seconds": 25.78816579999875, "returncode": 0, "finished": "2026-10-26T20:12:42.022973+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 15", "seconds": 24.538768099999288, "returncode": 0, "finished": "2026-10-26T20:13:06.643123+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 15", "seconds": 29.083354500000496, "returncode": 0, "finished": "2026-10-26T20:13:35.806451+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 15", "seconds": 22.943738300000405, "returncode": 0, "finished": "2026-10-26T20:13:58.801643+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 15", "seconds": 24.900266399999964, "returncode": 0, "finished": "2026-10-26T20:14:23.757295+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 15", "seconds": 24.356653000000733, "returncode": 0, "finished": "2026-10-26T20:14:48.177865+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 15", "seconds": 26.739531299999726, "returncode": 0, "finished": "2026-10-26T20:15:14.984818+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 15", "seconds": 24.184148899999855, "returncode": 0, "finished": "2026-10-26T20:15:39.242530+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 15", "seconds": 23.249041099999886, "returncode": 0, "finished": "2026-10-26T20:16:02.551070+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 15", "seconds": 24.354768799999874, "returncode": 0, "finished": "2026-10-26T20:16:26.965119+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 15", "seconds": 21.06786430000102, "returncode": 0, "finished": "2026-10-26T20:16:48.096258+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 15", "seconds": 23.134196699998938, "returncode": 0, "finished": "2026-10-26T20:17:11.293422+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 15", "seconds": 21.012994000000617, "returncode": 0, "finished": "2026-10-26T20:17:32.365124+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 15", "seconds": 23.501692400001048, "returncode": 0, "finished": "2026-10-26T20:17:55.926408+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 15", "seconds": 21.046839999999065, "returncode": 0, "finished": "2026-10-26T20:18:17.031946+05:30"}
+{"stage": "worker.py cache --shard 16", "seconds": 15.02531259999887, "returncode": 0, "finished": "2026-10-26T20:18:34.514691+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 16", "seconds": 26.23618059999899, "returncode": 0, "finished": "2026-10-26T20:19:00.809059+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 16", "seconds": 25.862303500000053, "returncode": 0, "finished": "2026-10-26T20:19:26.735935+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 16", "seconds": 25.27269510000042, "returncode": 0, "finished": "2026-10-26T20:19:52.079604+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 16", "seconds": 25.206805100000565, "returncode": 0, "finished": "2026-10-26T20:20:17.359730+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 16", "seconds": 26.12378649999846, "returncode": 0, "finished": "2026-10-26T20:20:43.561398+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 16", "seconds": 28.436912899998788, "returncode": 0, "finished": "2026-10-26T20:21:12.079392+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 16", "seconds": 25.916127899999992, "returncode": 0, "finished": "2026-10-26T20:21:38.061671+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 16", "seconds": 25.106360899999345, "returncode": 0, "finished": "2026-10-26T20:22:03.229738+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 16", "seconds": 23.644535899999028, "returncode": 0, "finished": "2026-10-26T20:22:26.945805+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 16", "seconds": 25.61690230000022, "returncode": 0, "finished": "2026-10-26T20:22:52.627086+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 16", "seconds": 25.994306499998856, "returncode": 0, "finished": "2026-10-26T20:23:18.701648+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 16", "seconds": 23.79197479999857, "returncode": 0, "finished": "2026-10-26T20:23:42.555003+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 16", "seconds": 24.312164400000256, "returncode": 0, "finished": "2026-10-26T20:24:06.949584+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 16", "seconds": 23.31218330000047, "returncode": 0, "finished": "2026-10-26T20:24:30.328777+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 16", "seconds": 25.276867200000197, "returncode": 0, "finished": "2026-10-26T20:24:55.657472+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 16", "seconds": 23.91451640000014, "returncode": 0, "finished": "2026-10-26T20:25:19.651474+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 16", "seconds": 27.77804350000042, "returncode": 0, "finished": "2026-10-26T20:25:47.496166+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 16", "seconds": 23.28665860000001, "returncode": 0, "finished": "2026-10-26T20:26:10.849127+05:30"}
+{"stage": "worker.py cache --shard 17", "seconds": 15.419773900001019, "returncode": 0, "finished": "2026-10-26T20:26:28.573415+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 17", "seconds": 26.084076900000582, "returncode": 0, "finished": "2026-10-26T20:26:54.723719+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 17", "seconds": 26.082338000000163, "returncode": 0, "finished": "2026-10-26T20:27:20.877898+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 17", "seconds": 26.42064240000036, "returncode": 0, "finished": "2026-10-26T20:27:47.369711+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 17", "seconds": 27.10189850000097, "returncode": 0, "finished": "2026-10-26T20:28:14.538118+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 17", "seconds": 24.489347400000042, "returncode": 0, "finished": "2026-10-26T20:28:39.089873+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 17", "seconds": 25.889896900000167, "returncode": 0, "finished": "2026-10-26T20:29:05.043624+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 17", "seconds": 24.435708599999998, "returncode": 0, "finished": "2026-10-26T20:29:29.566107+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 17", "seconds": 25.319455099999686, "returncode": 0, "finished": "2026-10-26T20:29:54.971855+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 17", "seconds": 23.462590900000578, "returncode": 0, "finished": "2026-10-26T20:30:18.489968+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 17", "seconds": 24.295622999999978, "returncode": 0, "finished": "2026-10-26T20:30:42.854611+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 17", "seconds": 23.872666899998876, "returncode": 0, "finished": "2026-10-26T20:31:06.789291+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 17", "seconds": 25.011130999999295, "returncode": 0, "finished": "2026-10-26T20:31:31.865012+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 17", "seconds": 24.726691100000608, "returncode": 0, "finished": "2026-10-26T20:31:56.659557+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 17", "seconds": 22.2472099000006, "returncode": 0, "finished": "2026-10-26T20:32:18.974681+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 17", "seconds": 24.28173059999972, "returncode": 0, "finished": "2026-10-26T20:32:43.317667+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 17", "seconds": 21.463649700001042, "returncode": 0, "finished": "2026-10-26T20:33:04.839462+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 17", "seconds": 24.062239700000646, "returncode": 0, "finished": "2026-10-26T20:33:28.978154+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 17", "seconds": 22.197059700001773, "returncode": 0, "finished": "2026-10-26T20:33:51.229004+05:30"}
+{"stage": "worker.py cache --shard 18", "seconds": 14.764789999999266, "returncode": 0, "finished": "2026-10-26T20:34:08.271368+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 18", "seconds": 25.868129699998462, "returncode": 0, "finished": "2026-10-26T20:34:34.222101+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 18", "seconds": 29.379846100000577, "returncode": 0, "finished": "2026-10-26T20:35:03.679391+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 18", "seconds": 28.435566000000108, "returncode": 0, "finished": "2026-10-26T20:35:32.193177+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 18", "seconds": 28.177133400000457, "returncode": 0, "finished": "2026-10-26T20:36:00.448775+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 18", "seconds": 25.97777169999972, "returncode": 0, "finished": "2026-10-26T20:36:26.504977+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 18", "seconds": 25.322227499998917, "returncode": 0, "finished": "2026-10-26T20:36:51.894837+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 18", "seconds": 24.15755150000041, "returncode": 0, "finished": "2026-10-26T20:37:16.111037+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 18", "seconds": 27.13755560000027, "returncode": 0, "finished": "2026-10-26T20:37:43.318550+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 18", "seconds": 26.294444700000895, "returncode": 0, "finished": "2026-10-26T20:38:09.685872+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 18", "seconds": 24.106881800000338, "returncode": 0, "finished": "2026-10-26T20:38:33.856561+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 18", "seconds": 25.103024500000174, "returncode": 0, "finished": "2026-10-26T20:38:59.035923+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 18", "seconds": 26.563363800001753, "returncode": 0, "finished": "2026-10-26T20:39:25.673941+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 18", "seconds": 26.008483999999953, "returncode": 0, "finished": "2026-10-26T20:39:51.755663+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 18", "seconds": 23.708869699999923, "returncode": 0, "finished": "2026-10-26T20:40:15.536435+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 18", "seconds": 24.573232000000644, "returncode": 0, "finished": "2026-10-26T20:40:40.191305+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 18", "seconds": 24.217048499998782, "returncode": 0, "finished": "2026-10-26T20:41:04.486098+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 18", "seconds": 27.36301520000052, "returncode": 0, "finished": "2026-10-26T20:41:31.925203+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 18", "seconds": 23.574045499999556, "returncode": 0, "finished": "2026-10-26T20:41:55.578688+05:30"}
+{"stage": "worker.py cache --shard 19", "seconds": 15.848944299999857, "returncode": 0, "finished": "2026-10-26T20:42:13.832108+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 19", "seconds": 28.031613899998774, "returncode": 0, "finished": "2026-10-26T20:42:41.939530+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 19", "seconds": 27.646757700000308, "returncode": 0, "finished": "2026-10-26T20:43:09.663712+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 19", "seconds": 28.122956200000772, "returncode": 0, "finished": "2026-10-26T20:43:37.858473+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 19", "seconds": 28.018531699999585, "returncode": 0, "finished": "2026-10-26T20:44:05.953477+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 19", "seconds": 25.543902200000957, "returncode": 0, "finished": "2026-10-26T20:44:31.577755+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 19", "seconds": 27.52805950000038, "returncode": 0, "finished": "2026-10-26T20:44:59.181028+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 19", "seconds": 26.249762199999168, "returncode": 0, "finished": "2026-10-26T20:45:25.505201+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 19", "seconds": 29.578553600000305, "returncode": 0, "finished": "2026-10-26T20:45:55.162442+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 19", "seconds": 25.884182099998725, "returncode": 0, "finished": "2026-10-26T20:46:21.119931+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 19", "seconds": 25.76080820000061, "returncode": 0, "finished": "2026-10-26T20:46:46.961093+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 19", "seconds": 26.246275600000445, "returncode": 0, "finished": "2026-10-26T20:47:13.289166+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 19", "seconds": 26.264844400000584, "returncode": 0, "finished": "2026-10-26T20:47:39.625892+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 19", "seconds": 26.355686999999307, "returncode": 0, "finished": "2026-10-26T20:48:06.060402+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 19", "seconds": 23.815679799999998, "returncode": 0, "finished": "2026-10-26T20:48:29.957490+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 19", "seconds": 26.04522029999862, "returncode": 0, "finished": "2026-10-26T20:48:56.106555+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 19", "seconds": 23.796959200000856, "returncode": 0, "finished": "2026-10-26T20:49:19.983875+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 19", "seconds": 25.845471599999655, "returncode": 0, "finished": "2026-10-26T20:49:45.909225+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 19", "seconds": 24.04075710000143, "returncode": 0, "finished": "2026-10-26T20:50:10.022850+05:30"}
+{"stage": "worker.py cache --shard 20", "seconds": 17.839037100000496, "returncode": 0, "finished": "2026-10-26T20:50:30.307759+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 20", "seconds": 33.467588699999396, "returncode": 0, "finished": "2026-10-26T20:51:03.881688+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 20", "seconds": 30.230906900000264, "returncode": 0, "finished": "2026-10-26T20:51:34.191799+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 20", "seconds": 30.329605299999457, "returncode": 0, "finished": "2026-10-26T20:52:04.611805+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 20", "seconds": 29.832184199998665, "returncode": 0, "finished": "2026-10-26T20:52:34.518406+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 20", "seconds": 28.374954800001433, "returncode": 0, "finished": "2026-10-26T20:53:02.971948+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 20", "seconds": 30.346406399999978, "returncode": 0, "finished": "2026-10-26T20:53:33.397588+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 20", "seconds": 27.770157900000413, "returncode": 0, "finished": "2026-10-26T20:54:01.252305+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 20", "seconds": 30.177265599999373, "returncode": 0, "finished": "2026-10-26T20:54:31.520874+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 20", "seconds": 28.068753800000195, "returncode": 0, "finished": "2026-10-26T20:54:59.674682+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 20", "seconds": 28.240297600001213, "returncode": 0, "finished": "2026-10-26T20:55:28.002483+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 20", "seconds": 30.02734330000021, "returncode": 0, "finished": "2026-10-26T20:55:58.120772+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 20", "seconds": 28.492215999998734, "returncode": 0, "finished": "2026-10-26T20:56:26.702196+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 20", "seconds": 31.832252199999857, "returncode": 0, "finished": "2026-10-26T20:56:58.628747+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 20", "seconds": 28.85251640000024, "returncode": 0, "finished": "2026-10-26T20:57:27.586408+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 20", "seconds": 30.047762800000783, "returncode": 0, "finished": "2026-10-26T20:57:57.734082+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 20", "seconds": 27.456550200000493, "returncode": 0, "finished": "2026-10-26T20:58:25.292431+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 20", "seconds": 28.646451100001286, "returncode": 0, "finished": "2026-10-26T20:58:54.030871+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 20", "seconds": 26.75650929999938, "returncode": 0, "finished": "2026-10-26T20:59:20.868231+05:30"}
+{"stage": "worker.py cache --shard 21", "seconds": 18.301739800001087, "returncode": 0, "finished": "2026-10-26T20:59:41.833256+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 21", "seconds": 31.61380680000002, "returncode": 0, "finished": "2026-10-26T21:00:13.532563+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 21", "seconds": 32.36029339999914, "returncode": 0, "finished": "2026-10-26T21:00:45.989344+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 21", "seconds": 31.873695400001452, "returncode": 0, "finished": "2026-10-26T21:01:17.955138+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 21", "seconds": 32.753973799999585, "returncode": 0, "finished": "2026-10-26T21:01:50.805714+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 21", "seconds": 30.65170230000149, "returncode": 0, "finished": "2026-10-26T21:02:21.554442+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 21", "seconds": 32.54648070000076, "returncode": 0, "finished": "2026-10-26T21:02:54.200384+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 21", "seconds": 25.953146199999537, "returncode": 0, "finished": "2026-10-26T21:03:20.232785+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 21", "seconds": 27.820509700000912, "returncode": 0, "finished": "2026-10-26T21:03:48.131730+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 21", "seconds": 25.28321070000129, "returncode": 0, "finished": "2026-10-26T21:04:13.493436+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 21", "seconds": 25.948317500000485, "returncode": 0, "finished": "2026-10-26T21:04:39.526048+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 21", "seconds": 25.836591100000078, "returncode": 0, "finished": "2026-10-26T21:05:05.439689+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 21", "seconds": 25.998746699999174, "returncode": 0, "finished": "2026-10-26T21:05:31.515914+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 21", "seconds": 25.738261300000886, "returncode": 0, "finished": "2026-10-26T21:05:57.335907+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 21", "seconds": 23.90432619999956, "returncode": 0, "finished": "2026-10-26T21:06:21.314400+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 21", "seconds": 26.015719099999842, "returncode": 0, "finished": "2026-10-26T21:06:47.413506+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 21", "seconds": 23.61655289999908, "returncode": 0, "finished": "2026-10-26T21:07:11.112739+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 21", "seconds": 27.765469899999516, "returncode": 0, "finished": "2026-10-26T21:07:38.957591+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 21", "seconds": 25.935688699999446, "returncode": 0, "finished": "2026-10-26T21:08:04.986058+05:30"}
+{"stage": "worker.py cache --shard 22", "seconds": 16.969581699999253, "returncode": 0, "finished": "2026-10-26T21:08:24.485299+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 22", "seconds": 29.05414639999981, "returncode": 0, "finished": "2026-10-26T21:08:53.626154+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 22", "seconds": 33.03680929999973, "returncode": 0, "finished": "2026-10-26T21:09:26.746286+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 22", "seconds": 28.90404699999999, "returncode": 0, "finished": "2026-10-26T21:09:55.725207+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 22", "seconds": 27.572636700000658, "returncode": 0, "finished": "2026-10-26T21:10:23.394364+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 22", "seconds": 34.94303750000108, "returncode": 0, "finished": "2026-10-26T21:10:58.422933+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 22", "seconds": 29.125087899999926, "returncode": 0, "finished": "2026-10-26T21:11:27.629278+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 22", "seconds": 24.112484699999186, "returncode": 0, "finished": "2026-10-26T21:11:51.826625+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 22", "seconds": 28.879589000000124, "returncode": 0, "finished": "2026-10-26T21:12:20.794439+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 22", "seconds": 26.915353100001084, "returncode": 0, "finished": "2026-10-26T21:12:47.794332+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 22", "seconds": 30.476702300000397, "returncode": 0, "finished": "2026-10-26T21:13:18.358057+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 22", "seconds": 27.503966800000853, "returncode": 0, "finished": "2026-10-26T21:13:45.932671+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 22", "seconds": 26.387723600000754, "returncode": 0, "finished": "2026-10-26T21:14:12.419870+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 22", "seconds": 25.92748980000033, "returncode": 0, "finished": "2026-10-26T21:14:38.425427+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 22", "seconds": 24.261685800000123, "returncode": 0, "finished": "2026-10-26T21:15:02.764153+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 22", "seconds": 26.059146199999304, "returncode": 0, "finished": "2026-10-26T21:15:28.904982+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 22", "seconds": 23.66922429999977, "returncode": 0, "finished": "2026-10-26T21:15:52.658217+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 22", "seconds": 26.383297300000777, "returncode": 0, "finished": "2026-10-26T21:16:19.128215+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 22", "seconds": 23.73655189999954, "returncode": 0, "finished": "2026-10-26T21:16:42.942113+05:30"}
+{"stage": "worker.py cache --shard 23", "seconds": 16.253555200000847, "returncode": 0, "finished": "2026-10-26T21:17:01.672737+05:30"}
+{"stage": "worker.py train --job moderate_random_s42_kl --shard 23", "seconds": 31.224974799999472, "returncode": 0, "finished": "2026-10-26T21:17:32.980047+05:30"}
+{"stage": "worker.py train --job moderate_random_s123_kl --shard 23", "seconds": 30.84901069999978, "returncode": 0, "finished": "2026-10-26T21:18:03.912365+05:30"}
+{"stage": "worker.py train --job moderate_random_s2026_kl --shard 23", "seconds": 31.15222580000045, "returncode": 0, "finished": "2026-10-26T21:18:35.148868+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_kl --shard 23", "seconds": 32.327994899998885, "returncode": 0, "finished": "2026-10-26T21:19:07.560250+05:30"}
+{"stage": "worker.py train --job moderate_informed_s42_ce --shard 23", "seconds": 28.81218269999954, "returncode": 0, "finished": "2026-10-26T21:19:36.459260+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_kl --shard 23", "seconds": 31.376550999997562, "returncode": 0, "finished": "2026-10-26T21:20:07.920726+05:30"}
+{"stage": "worker.py train --job moderate_informed_s123_ce --shard 23", "seconds": 28.76485739999771, "returncode": 0, "finished": "2026-10-26T21:20:36.770000+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_kl --shard 23", "seconds": 30.46169480000026, "returncode": 0, "finished": "2026-10-26T21:21:07.314680+05:30"}
+{"stage": "worker.py train --job moderate_informed_s2026_ce --shard 23", "seconds": 28.139082199999393, "returncode": 0, "finished": "2026-10-26T21:21:35.538784+05:30"}
+{"stage": "worker.py train --job strong_random_s42_kl --shard 23", "seconds": 28.16136109999934, "returncode": 0, "finished": "2026-10-26T21:22:03.779648+05:30"}
+{"stage": "worker.py train --job strong_random_s123_kl --shard 23", "seconds": 28.43070440000156, "returncode": 0, "finished": "2026-10-26T21:22:32.295304+05:30"}
+{"stage": "worker.py train --job strong_random_s2026_kl --shard 23", "seconds": 28.289528900000732, "returncode": 0, "finished": "2026-10-26T21:23:00.669431+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_kl --shard 23", "seconds": 28.119482599999174, "returncode": 0, "finished": "2026-10-26T21:23:28.868504+05:30"}
+{"stage": "worker.py train --job strong_informed_s42_ce --shard 23", "seconds": 26.42978029999722, "returncode": 0, "finished": "2026-10-26T21:23:55.384279+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_kl --shard 23", "seconds": 28.849831700001232, "returncode": 0, "finished": "2026-10-26T21:24:24.320760+05:30"}
+{"stage": "worker.py train --job strong_informed_s123_ce --shard 23", "seconds": 26.792728000000352, "returncode": 0, "finished": "2026-10-26T21:24:51.199110+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_kl --shard 23", "seconds": 28.72151379999923, "returncode": 0, "finished": "2026-10-26T21:25:20.000026+05:30"}
+{"stage": "worker.py train --job strong_informed_s2026_ce --shard 23", "seconds": 26.558533100000204, "returncode": 0, "finished": "2026-10-26T21:25:46.647348+05:30"}
+{"stage": "worker.py evaluate --job moderate_random_s42_kl", "seconds": 39.611171900000045, "returncode": 0, "finished": "2026-10-26T21:26:28.654318+05:30"}
+{"stage": "worker.py evaluate --job moderate_random_s123_kl", "seconds": 39.53108269999939, "returncode": 0, "finished": "2026-10-26T21:27:08.269647+05:30"}
+{"stage": "worker.py evaluate --job moderate_random_s2026_kl", "seconds": 39.69768110000223, "returncode": 0, "finished": "2026-10-26T21:27:48.051710+05:30"}
+{"stage": "worker.py evaluate --job moderate_informed_s42_kl", "seconds": 39.42757580000034, "returncode": 0, "finished": "2026-10-26T21:28:27.567088+05:30"}
+{"stage": "worker.py evaluate --job moderate_informed_s42_ce", "seconds": 39.38103499999852, "returncode": 0, "finished": "2026-10-26T21:29:07.032575+05:30"}
+{"stage": "worker.py evaluate --job moderate_informed_s123_kl", "seconds": 39.06122709999909, "returncode": 0, "finished": "2026-10-26T21:29:46.189599+05:30"}
+{"stage": "worker.py evaluate --job moderate_informed_s123_ce", "seconds": 39.55162629999904, "returncode": 0, "finished": "2026-10-26T21:30:25.825753+05:30"}
+{"stage": "worker.py evaluate --job moderate_informed_s2026_kl", "seconds": 39.31917690000046, "returncode": 0, "finished": "2026-10-26T21:31:05.234759+05:30"}
+{"stage": "worker.py evaluate --job moderate_informed_s2026_ce", "seconds": 39.47116690000257, "returncode": 0, "finished": "2026-10-26T21:31:44.793916+05:30"}
+{"stage": "worker.py evaluate --job strong_random_s42_kl", "seconds": 35.19565249999869, "returncode": 0, "finished": "2026-10-26T21:32:20.072055+05:30"}
+{"stage": "worker.py evaluate --job strong_random_s123_kl", "seconds": 34.69057470000189, "returncode": 0, "finished": "2026-10-26T21:32:54.854164+05:30"}
+{"stage": "worker.py evaluate --job strong_random_s2026_kl", "seconds": 35.66490630000044, "returncode": 0, "finished": "2026-10-26T21:33:30.603062+05:30"}
+{"stage": "worker.py evaluate --job strong_informed_s42_kl", "seconds": 34.75364780000018, "returncode": 0, "finished": "2026-10-26T21:34:05.443484+05:30"}
+{"stage": "worker.py evaluate --job strong_informed_s42_ce", "seconds": 34.36022609999782, "returncode": 0, "finished": "2026-10-26T21:34:39.892464+05:30"}
+{"stage": "worker.py evaluate --job strong_informed_s123_kl", "seconds": 34.66083190000063, "returncode": 0, "finished": "2026-10-26T21:35:14.645496+05:30"}
+{"stage": "worker.py evaluate --job strong_informed_s123_ce", "seconds": 35.54219469999953, "returncode": 0, "finished": "2026-10-26T21:35:50.277650+05:30"}
+{"stage": "worker.py evaluate --job strong_informed_s2026_kl", "seconds": 34.6074766999991, "returncode": 0, "finished": "2026-10-26T21:36:24.976606+05:30"}
+{"stage": "worker.py evaluate --job strong_informed_s2026_ce", "seconds": 35.58054280000215, "returncode": 0, "finished": "2026-10-26T21:37:00.642028+05:30"}
+{"stage": "worker.py benchmark --job teacher --device cpu", "seconds": 316.06163129999914, "returncode": 0, "finished": "2026-10-26T21:42:16.790096+05:30"}
+{"stage": "worker.py benchmark --job teacher --device cuda", "seconds": 24.9580962, "returncode": 0, "finished": "2026-10-26T21:42:41.839089+05:30"}
+{"stage": "worker.py benchmark --job moderate_informed_s42_kl --device cpu", "seconds": 267.1192093999998, "returncode": 0, "finished": "2026-10-26T21:47:09.052449+05:30"}
+{"stage": "worker.py benchmark --job moderate_informed_s42_kl --device cuda", "seconds": 23.680704599999444, "returncode": 0, "finished": "2026-10-26T21:47:32.821111+05:30"}
+{"stage": "worker.py benchmark --job strong_informed_s42_kl --device cpu", "seconds": 210.7170490999997, "returncode": 0, "finished": "2026-10-26T21:51:03.622354+05:30"}
+{"stage": "worker.py benchmark --job strong_informed_s42_kl --device cuda", "seconds": 21.934006999999838, "returncode": 0, "finished": "2026-10-26T21:51:25.642537+05:30"}
+{"stage": "worker.py export --job strong_informed_s42_kl", "seconds": 14.81997599999886, "returncode": 0, "finished": "2026-10-26T21:51:40.546169+05:30"}
+{"stage": "validate.py ", "seconds": 15.219039799998427, "returncode": 0, "finished": "2026-10-26T21:51:55.849981+05:30"}
+{"stage": "analyze.py ", "seconds": 3.9006129000008514, "returncode": 0, "finished": "2026-10-26T21:51:59.841533+05:30"}
+{"stage": "build_presentation.py ", "seconds": 9.292870799999946, "returncode": 0, "finished": "2026-10-26T21:52:09.236899+05:30"}

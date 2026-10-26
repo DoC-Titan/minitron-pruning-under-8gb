@@ -1,0 +1,9 @@
+Built with Qwen.
+Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT, Copyright (c) Alibaba Cloud. All Rights Reserved.
+
+All .pt files in this folder are MODIFIED, LEARNED LoRA derivatives created by
+this project, not original Qwen checkpoints. File names encode structure,
+criterion, seed and recovery objective. Base weights are not included.
+The associated recipes and fixed-budget experimental manifests specify every
+structural/training modification. Noncommercial research use only under the
+included ../licenses/QWEN_RESEARCH_LICENSE.txt and ../MODEL_CARD.md.

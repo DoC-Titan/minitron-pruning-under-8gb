@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Independent fresh-run preparation only; no duplicate training or new scientific results",
+  "checks": [
+    "Local teacher numerical/tokenizer files matched pinned fingerprints",
+    "Published prepared input hashes verified",
+    "No historical metrics/checkpoints copied",
+    "Scientific source and config byte-matched",
+    "A machine-local launcher was generated outside publication allowlist"
+  ],
+  "independent_training_executed": false,
+  "recorded_at": "2026-10-26T22:08:05.504326+05:30"
+}

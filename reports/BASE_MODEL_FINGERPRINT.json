@@ -1,0 +1,15 @@
+{
+  "teacher": "Qwen/Qwen2.5-3B",
+  "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+  "recorded_at": "2026-10-26T22:01:34.875656+05:30",
+  "files": {
+    "model-00001-of-00002.safetensors": "f9558df91d3b89b4826e4db37439edb52f1d62a4fd602685013e7ca6b9f60f8f",
+    "model-00002-of-00002.safetensors": "51410930d5cf19a998fdb17ef0c46e4d9ace72c97a975a3331395a8a500f5edb",
+    "config.json": "27467e2fc311a7656c09a43ae9c3d408211e1f212bbddbc93c8596a06423826f",
+    "generation_config.json": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+  }
+}

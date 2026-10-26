@@ -1,0 +1,18 @@
+{
+  "nonzero_update": true,
+  "gradient_norm": 12.972169876098633,
+  "loss": 7.776714205741882,
+  "memory": {
+    "rss_gib": 1.4700279235839844,
+    "process_peak_working_set_gib": 4.271663665771484,
+    "allocated_gib": 4.226367950439453,
+    "reserved_gib": 6.419921875,
+    "system_gpu": {
+      "temperature_c": 60,
+      "memory_used_mib": 7450,
+      "memory_total_mib": 8188,
+      "utilization_percent": 39
+    }
+  },
+  "smoke_included_as_first_planned_update": true
+}

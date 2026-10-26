@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="490" viewBox="0 0 1000 490">
+<rect width="1000" height="490" fill="white"/>
+<text x="40" y="32" font-family="Arial" font-size="21" fill="#172d43">Real-model deployment: CPU FP32 versus CUDA FP16</text>
+<path d="M85.00,85 V390" stroke="#e4ebee"/><text x="85.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">-6.40</text>
+<path d="M85,390 H735" stroke="#e4ebee"/><text x="74" y="394" text-anchor="end" font-family="Arial" font-size="12">0.33</text>
+<path d="M215.00,85 V390" stroke="#e4ebee"/><text x="215.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">104.96</text>
+<path d="M85,330 H735" stroke="#e4ebee"/><text x="74" y="334" text-anchor="end" font-family="Arial" font-size="12">0.76</text>
+<path d="M345.00,85 V390" stroke="#e4ebee"/><text x="345.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">216.32</text>
+<path d="M85,270 H735" stroke="#e4ebee"/><text x="74" y="274" text-anchor="end" font-family="Arial" font-size="12">1.74</text>
+<path d="M475.00,85 V390" stroke="#e4ebee"/><text x="475.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">327.68</text>
+<path d="M85,210 H735" stroke="#e4ebee"/><text x="74" y="214" text-anchor="end" font-family="Arial" font-size="12">3.98</text>
+<path d="M605.00,85 V390" stroke="#e4ebee"/><text x="605.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">439.04</text>
+<path d="M85,150 H735" stroke="#e4ebee"/><text x="74" y="154" text-anchor="end" font-family="Arial" font-size="12">9.13</text>
+<path d="M735.00,85 V390" stroke="#e4ebee"/><text x="735.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">550.40</text>
+<path d="M85,90 H735" stroke="#e4ebee"/><text x="74" y="94" text-anchor="end" font-family="Arial" font-size="12">20.95</text>
+<polyline points="129.83,179.22 241.90,163.39 690.17,115.00" fill="none" stroke="#007f83" stroke-width="2"/>
+<circle cx="129.83" cy="179.22" r="4.5" fill="#007f83"/>
+<circle cx="241.90" cy="163.39" r="4.5" fill="#007f83"/>
+<circle cx="690.17" cy="115.00" r="4.5" fill="#007f83"/>
+<rect x="760" y="95" width="10" height="10" fill="#007f83"/><text x="777" y="105" font-family="Arial" font-size="12">teacher/cpu</text>
+<polyline points="129.83,349.03 241.90,346.56 690.17,339.04" fill="none" stroke="#ed8446" stroke-width="2"/>
+<circle cx="129.83" cy="349.03" r="4.5" fill="#ed8446"/>
+<circle cx="241.90" cy="346.56" r="4.5" fill="#ed8446"/>
+<circle cx="690.17" cy="339.04" r="4.5" fill="#ed8446"/>
+<rect x="760" y="124" width="10" height="10" fill="#ed8446"/><text x="777" y="134" font-family="Arial" font-size="12">teacher/cuda</text>
+<polyline points="129.83,196.58 241.90,180.57 690.17,129.82" fill="none" stroke="#5472bb" stroke-width="2"/>
+<circle cx="129.83" cy="196.58" r="4.5" fill="#5472bb"/>
+<circle cx="241.90" cy="180.57" r="4.5" fill="#5472bb"/>
+<circle cx="690.17" cy="129.82" r="4.5" fill="#5472bb"/>
+<rect x="760" y="153" width="10" height="10" fill="#5472bb"/><text x="777" y="163" font-family="Arial" font-size="12">moderate_informed_s42_kl/cpu</text>
+<polyline points="129.83,359.15 241.90,354.92 690.17,350.75" fill="none" stroke="#a35691" stroke-width="2"/>
+<circle cx="129.83" cy="359.15" r="4.5" fill="#a35691"/>
+<circle cx="241.90" cy="354.92" r="4.5" fill="#a35691"/>
+<circle cx="690.17" cy="350.75" r="4.5" fill="#a35691"/>
+<rect x="760" y="182" width="10" height="10" fill="#a35691"/><text x="777" y="192" font-family="Arial" font-size="12">moderate_informed_s42_kl/cuda</text>
+<polyline points="129.83,212.61 241.90,198.18 690.17,147.75" fill="none" stroke="#3a995f" stroke-width="2"/>
+<circle cx="129.83" cy="212.61" r="4.5" fill="#3a995f"/>
+<circle cx="241.90" cy="198.18" r="4.5" fill="#3a995f"/>
+<circle cx="690.17" cy="147.75" r="4.5" fill="#3a995f"/>
+<rect x="760" y="211" width="10" height="10" fill="#3a995f"/><text x="777" y="221" font-family="Arial" font-size="12">strong_informed_s42_kl/cpu</text>
+<polyline points="129.83,362.95 241.90,365.00 690.17,360.10" fill="none" stroke="#bb5656" stroke-width="2"/>
+<circle cx="129.83" cy="362.95" r="4.5" fill="#bb5656"/>
+<circle cx="241.90" cy="365.00" r="4.5" fill="#bb5656"/>
+<circle cx="690.17" cy="360.10" r="4.5" fill="#bb5656"/>
+<rect x="760" y="240" width="10" height="10" fill="#bb5656"/><text x="777" y="250" font-family="Arial" font-size="12">strong_informed_s42_kl/cuda</text>
+<text x="400" y="452" text-anchor="middle" font-family="Arial" font-size="15">Prompt tokens (16 generated)</text>
+<text x="23" y="240" transform="rotate(-90 23 240)" text-anchor="middle" font-family="Arial" font-size="15">Median prefill + decode seconds</text>
+</svg>

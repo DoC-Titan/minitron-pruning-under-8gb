@@ -1,0 +1,562 @@
+{
+  "variant": "teacher",
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "actual_parameter_devices": [
+    "cuda"
+  ],
+  "parameters": 3085938688,
+  "model_load_seconds": 4.102747799999634,
+  "construction_phases": {
+    "load_seconds": 4.102747799999634
+  },
+  "cases": [
+    {
+      "prompt_tokens": 32,
+      "new_tokens": 16,
+      "batch_size": 1,
+      "runs": [
+        {
+          "preprocess_seconds": 0.0015773000013723504,
+          "transfer_seconds": 0.00011720000111381523,
+          "execution_seconds": 0.5738496000012674,
+          "postprocess_seconds": 0.00013169999874662608,
+          "request_e2e_seconds": 0.5756758000025002,
+          "continuation": " the northern Atlantic Ocean. It is the largest of the European lobsters, with"
+        },
+        {
+          "preprocess_seconds": 0.0019221999973524362,
+          "transfer_seconds": 0.00017920000027515925,
+          "execution_seconds": 0.5773173000015959,
+          "postprocess_seconds": 0.00010920000204350799,
+          "request_e2e_seconds": 0.579527900001267,
+          "continuation": " the northern Atlantic Ocean. It is the largest of the European lobsters, with"
+        },
+        {
+          "preprocess_seconds": 0.0020078999987163115,
+          "transfer_seconds": 0.00025380000079167075,
+          "execution_seconds": 0.5887915999992401,
+          "postprocess_seconds": 0.00015349999739555642,
+          "request_e2e_seconds": 0.5912067999961437,
+          "continuation": " the northern Atlantic Ocean. It is the largest of the European lobsters, with"
+        },
+        {
+          "preprocess_seconds": 0.0019175999987055548,
+          "transfer_seconds": 0.0001751000017975457,
+          "execution_seconds": 0.581702999999834,
+          "postprocess_seconds": 0.00010870000187424012,
+          "request_e2e_seconds": 0.5839044000022113,
+          "continuation": " the northern Atlantic Ocean. It is the largest of the European lobsters, with"
+        },
+        {
+          "preprocess_seconds": 0.0018605000004754402,
+          "transfer_seconds": 0.0001923000017995946,
+          "execution_seconds": 0.5976928999989468,
+          "postprocess_seconds": 0.00010920000204350799,
+          "request_e2e_seconds": 0.5998549000032654,
+          "continuation": " the northern Atlantic Ocean. It is the largest of the European lobsters, with"
+        }
+      ],
+      "median": {
+        "preprocess_seconds": 0.0019175999987055548,
+        "transfer_seconds": 0.00017920000027515925,
+        "execution_seconds": 0.581702999999834,
+        "postprocess_seconds": 0.00010920000204350799,
+        "request_e2e_seconds": 0.5839044000022113
+      },
+      "execution_iqr_seconds": 0.017658799997661845,
+      "execution_range_seconds": [
+        0.5738496000012674,
+        0.5976928999989468
+      ],
+      "generated_tokens_per_second": 27.50544521861597,
+      "load_inclusive_first_request_seconds": 4.678423600002134,
+      "memory": {
+        "rss_gib": 1.1520500183105469,
+        "process_peak_working_set_gib": 4.272064208984375,
+        "allocated_gib": 5.785267353057861,
+        "reserved_gib": 6.40625,
+        "system_gpu": {
+          "temperature_c": 57,
+          "memory_used_mib": 7729,
+          "memory_total_mib": 8188,
+          "utilization_percent": 79
+        }
+      }
+    },
+    {
+      "prompt_tokens": 128,
+      "new_tokens": 16,
+      "batch_size": 1,
+      "runs": [
+        {
+          "preprocess_seconds": 0.0015591999981552362,
+          "transfer_seconds": 0.000112599998828955,
+          "execution_seconds": 0.6168728999982704,
+          "postprocess_seconds": 0.0001157000006060116,
+          "request_e2e_seconds": 0.6186603999958606,
+          "continuation": " carried by the female for 24 to 30 months . The eggs"
+        },
+        {
+          "preprocess_seconds": 0.0019487999998091254,
+          "transfer_seconds": 0.0002607000023999717,
+          "execution_seconds": 0.601976800000557,
+          "postprocess_seconds": 0.00010570000085863285,
+          "request_e2e_seconds": 0.6042920000036247,
+          "continuation": " carried by the female for 24 to 30 months . The eggs"
+        },
+        {
+          "preprocess_seconds": 0.001841099998273421,
+          "transfer_seconds": 0.00017699999807518907,
+          "execution_seconds": 0.5919045000009646,
+          "postprocess_seconds": 0.00014940000255592167,
+          "request_e2e_seconds": 0.5940719999998691,
+          "continuation": " carried by the female for 24 to 30 months . The eggs"
+        },
+        {
+          "preprocess_seconds": 0.0015416999995068181,
+          "transfer_seconds": 0.00010929999916697852,
+          "execution_seconds": 0.6023860000022978,
+          "postprocess_seconds": 0.0001660999987507239,
+          "request_e2e_seconds": 0.6042030999997223,
+          "continuation": " carried by the female for 24 to 30 months . The eggs"
+        },
+        {
+          "preprocess_seconds": 0.0015564000023005065,
+          "transfer_seconds": 0.00016110000069602393,
+          "execution_seconds": 0.592271500001516,
+          "postprocess_seconds": 0.00025149999783025123,
+          "request_e2e_seconds": 0.5942405000023427,
+          "continuation": " carried by the female for 24 to 30 months . The eggs"
+        }
+      ],
+      "median": {
+        "preprocess_seconds": 0.0015591999981552362,
+        "transfer_seconds": 0.00016110000069602393,
+        "execution_seconds": 0.601976800000557,
+        "postprocess_seconds": 0.00014940000255592167,
+        "request_e2e_seconds": 0.6042030999997223
+      },
+      "execution_iqr_seconds": 0.017541449999043834,
+      "execution_range_seconds": [
+        0.5919045000009646,
+        0.6168728999982704
+      ],
+      "generated_tokens_per_second": 26.579097400406788,
+      "load_inclusive_first_request_seconds": 4.721408199995494,
+      "memory": {
+        "rss_gib": 1.1523056030273438,
+        "process_peak_working_set_gib": 4.272064208984375,
+        "allocated_gib": 5.794463634490967,
+        "reserved_gib": 6.41015625,
+        "system_gpu": {
+          "temperature_c": 58,
+          "memory_used_mib": 7733,
+          "memory_total_mib": 8188,
+          "utilization_percent": 88
+        }
+      }
+    },
+    {
+      "prompt_tokens": 512,
+      "new_tokens": 16,
+      "batch_size": 1,
+      "runs": [
+        {
+          "preprocess_seconds": 0.0015974999987520278,
+          "transfer_seconds": 0.00010370000018156134,
+          "execution_seconds": 0.6644612000018242,
+          "postprocess_seconds": 0.00016510000205016695,
+          "request_e2e_seconds": 0.6663275000028079,
+          "continuation": "marus is H. americanus , the American lobster . The two species are"
+        },
+        {
+          "preprocess_seconds": 0.001600800002051983,
+          "transfer_seconds": 0.00016549999782000668,
+          "execution_seconds": 0.6680065000000468,
+          "postprocess_seconds": 0.00012769999739248306,
+          "request_e2e_seconds": 0.6699004999973113,
+          "continuation": "marus is H. americanus , the American lobster . The two species are"
+        },
+        {
+          "preprocess_seconds": 0.002005599999392871,
+          "transfer_seconds": 0.00018659999841474928,
+          "execution_seconds": 0.6596934000008332,
+          "postprocess_seconds": 0.0001368000012007542,
+          "request_e2e_seconds": 0.6620223999998416,
+          "continuation": "marus is H. americanus , the American lobster . The two species are"
+        },
+        {
+          "preprocess_seconds": 0.0018648000004759524,
+          "transfer_seconds": 0.000180200000613695,
+          "execution_seconds": 0.6805272000019613,
+          "postprocess_seconds": 0.00013360000230022706,
+          "request_e2e_seconds": 0.6827058000053512,
+          "continuation": "marus is H. americanus , the American lobster . The two species are"
+        },
+        {
+          "preprocess_seconds": 0.0017760999980964698,
+          "transfer_seconds": 0.0002007000002777204,
+          "execution_seconds": 0.6767762000017683,
+          "postprocess_seconds": 0.0001478000012866687,
+          "request_e2e_seconds": 0.6789008000014292,
+          "continuation": "marus is H. americanus , the American lobster . The two species are"
+        }
+      ],
+      "median": {
+        "preprocess_seconds": 0.0017760999980964698,
+        "transfer_seconds": 0.000180200000613695,
+        "execution_seconds": 0.6680065000000468,
+        "postprocess_seconds": 0.0001368000012007542,
+        "request_e2e_seconds": 0.6699004999973113
+      },
+      "execution_iqr_seconds": 0.016574400000536116,
+      "execution_range_seconds": [
+        0.6596934000008332,
+        0.6805272000019613
+      ],
+      "generated_tokens_per_second": 23.951862743848867,
+      "load_inclusive_first_request_seconds": 4.7690753000024415,
+      "memory": {
+        "rss_gib": 1.1523704528808594,
+        "process_peak_working_set_gib": 4.272064208984375,
+        "allocated_gib": 5.840315341949463,
+        "reserved_gib": 6.427734375,
+        "system_gpu": {
+          "temperature_c": 60,
+          "memory_used_mib": 7764,
+          "memory_total_mib": 8188,
+          "utilization_percent": 89
+        }
+      }
+    }
+  ],
+  "quality": {
+    "test": {
+      "nll": 3.1933464440773793,
+      "perplexity": 24.369843458352022,
+      "scored_tokens": 2032,
+      "per_block_nll": [
+        3.643094040277436,
+        3.182218536617249,
+        3.548802173043799,
+        3.045592300535187,
+        2.9742748831200787,
+        3.360951100747416,
+        3.7759690172090306,
+        3.468055785171629,
+        3.3764537901390255,
+        2.2835914431594486,
+        3.596528060792938,
+        3.175542636180487,
+        3.2656954066959893,
+        2.946939783772146,
+        2.427604855514887,
+        3.022229292261319
+      ],
+      "seconds": 0.9294244999982766
+    },
+    "piqa": {
+      "accuracy": 0.75,
+      "count": 32,
+      "details": [
+        {
+          "index": 13,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.878140926361084,
+            -3.9942879676818848
+          ]
+        },
+        {
+          "index": 51,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -2.283747911453247,
+            -1.8082114458084106
+          ]
+        },
+        {
+          "index": 52,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.3626227378845215,
+            -3.4824090003967285
+          ]
+        },
+        {
+          "index": 54,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -1.853034257888794,
+            -3.043623208999634
+          ]
+        },
+        {
+          "index": 56,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -1.3744492530822754,
+            -2.481456756591797
+          ]
+        },
+        {
+          "index": 61,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -2.031993865966797,
+            -2.250359296798706
+          ]
+        },
+        {
+          "index": 64,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -2.0696756839752197,
+            -1.8342947959899902
+          ]
+        },
+        {
+          "index": 65,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -2.20947265625,
+            -2.4635627269744873
+          ]
+        },
+        {
+          "index": 69,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.1046969890594482,
+            -3.862548828125
+          ]
+        },
+        {
+          "index": 92,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -1.8319272994995117,
+            -2.2928175926208496
+          ]
+        },
+        {
+          "index": 97,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -4.3328022956848145,
+            -2.6608240604400635
+          ]
+        },
+        {
+          "index": 100,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -2.2342545986175537,
+            -2.677155017852783
+          ]
+        },
+        {
+          "index": 118,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -4.9124274253845215,
+            -4.200168132781982
+          ]
+        },
+        {
+          "index": 134,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -3.3263309001922607,
+            -3.010026693344116
+          ]
+        },
+        {
+          "index": 139,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -1.933839201927185,
+            -1.8056704998016357
+          ]
+        },
+        {
+          "index": 146,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -2.3756167888641357,
+            -2.8964600563049316
+          ]
+        },
+        {
+          "index": 150,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -2.9549484252929688,
+            -2.9588816165924072
+          ]
+        },
+        {
+          "index": 165,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -2.651888847351074,
+            -2.396652936935425
+          ]
+        },
+        {
+          "index": 167,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -2.4723825454711914,
+            -2.3486621379852295
+          ]
+        },
+        {
+          "index": 178,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -2.3553900718688965,
+            -1.934478759765625
+          ]
+        },
+        {
+          "index": 183,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -1.9065765142440796,
+            -2.3045248985290527
+          ]
+        },
+        {
+          "index": 191,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -3.0573484897613525,
+            -2.675865650177002
+          ]
+        },
+        {
+          "index": 192,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.658191680908203,
+            -5.252438068389893
+          ]
+        },
+        {
+          "index": 195,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -2.303293466567993,
+            -2.7904670238494873
+          ]
+        },
+        {
+          "index": 197,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -3.2695860862731934,
+            -3.7303285598754883
+          ]
+        },
+        {
+          "index": 204,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.6244404315948486,
+            -3.6922593116760254
+          ]
+        },
+        {
+          "index": 209,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -2.4327332973480225,
+            -2.194124460220337
+          ]
+        },
+        {
+          "index": 213,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -2.8186402320861816,
+            -2.6203691959381104
+          ]
+        },
+        {
+          "index": 216,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -2.451456308364868,
+            -2.954312801361084
+          ]
+        },
+        {
+          "index": 228,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.917080879211426,
+            -4.677361011505127
+          ]
+        },
+        {
+          "index": 232,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.710695743560791,
+            -4.143556118011475
+          ]
+        },
+        {
+          "index": 236,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -3.0922844409942627,
+            -2.8086931705474854
+          ]
+        }
+      ],
+      "seconds": 2.4040002999972785,
+      "method": "custom zero-shot length-normalized answer conditional likelihood; not official lm-eval harness"
+    }
+  },
+  "cpu_threads": 4,
+  "warmups": 2,
+  "repeats": 5,
+  "comparison_label": "CPU FP32 vs CUDA FP16 is deployment device+precision, not isolated hardware speedup",
+  "loading_caveat": "Fresh process/model load; OS file cache is uncontrolled, not cold storage latency",
+  "phase_seconds": 16.613923900000373
+}

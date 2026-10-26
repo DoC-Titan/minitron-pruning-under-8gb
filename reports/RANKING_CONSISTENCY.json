@@ -1,0 +1,50 @@
+[
+  {
+    "level": "moderate",
+    "seed": 42,
+    "initial_validation_NLL_winner": "random",
+    "final_validation_NLL_winner": "random",
+    "final_test_NLL_winner": "random",
+    "final_PIQA_winner": "informed"
+  },
+  {
+    "level": "moderate",
+    "seed": 123,
+    "initial_validation_NLL_winner": "informed",
+    "final_validation_NLL_winner": "random",
+    "final_test_NLL_winner": "random",
+    "final_PIQA_winner": "informed"
+  },
+  {
+    "level": "moderate",
+    "seed": 2026,
+    "initial_validation_NLL_winner": "random",
+    "final_validation_NLL_winner": "random",
+    "final_test_NLL_winner": "random",
+    "final_PIQA_winner": "tie"
+  },
+  {
+    "level": "strong",
+    "seed": 42,
+    "initial_validation_NLL_winner": "random",
+    "final_validation_NLL_winner": "random",
+    "final_test_NLL_winner": "random",
+    "final_PIQA_winner": "informed"
+  },
+  {
+    "level": "strong",
+    "seed": 123,
+    "initial_validation_NLL_winner": "informed",
+    "final_validation_NLL_winner": "informed",
+    "final_test_NLL_winner": "informed",
+    "final_PIQA_winner": "informed"
+  },
+  {
+    "level": "strong",
+    "seed": 2026,
+    "initial_validation_NLL_winner": "random",
+    "final_validation_NLL_winner": "informed",
+    "final_test_NLL_winner": "informed",
+    "final_PIQA_winner": "informed"
+  }
+]

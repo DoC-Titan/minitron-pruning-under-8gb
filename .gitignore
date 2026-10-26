@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+cache/*.npy
+state/
+model/
+*.tmp
+STOP
+.env
+.env.*
+RUN_STATUS.json
+logs/runner.log
+logs/errors.jsonl
+environment.json
+publish_receipt.local.json
+*.local.md
+*.local.ps1

@@ -1,0 +1,42 @@
+{
+  "train_sha256": "30df7c7ff523b1af421df674d6ad230940b39c09db78119364accf074344b710",
+  "train_blocks": 1536,
+  "input_tokens": 196608,
+  "causal_targets": 195072,
+  "block_overlap": false,
+  "calibration_blocks": 32,
+  "test_blocks": 256,
+  "validation_blocks": 64,
+  "source_manifest": {
+    "dataset_revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+    "model_revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+    "calibration_blocks": 64,
+    "sensitivity_blocks": 32,
+    "training_sequences": 1536,
+    "training_input_tokens": 196608,
+    "training_target_tokens": 195072,
+    "validation_blocks": 100,
+    "validation_target_tokens": 12700,
+    "test_blocks": 256,
+    "test_target_tokens": 32512,
+    "test_selection": "Official test concatenated tokens [32768:65536], independent128tokenblocks",
+    "test_overlap_with_v1_blocks": false,
+    "exact_cross_partition_block_overlap": false,
+    "exact_test_training_article_overlap": false,
+    "piqa_examples": 200,
+    "train_tensor_sha256": "30df7c7ff523b1af421df674d6ad230940b39c09db78119364accf074344b710",
+    "evaluation_file_sha256": "dce973b7be394f8948fc6bd7cdd4fb0bbe788a1a0dbea472799befa3490d9e3f",
+    "full_vocab_cache_estimated_bytes": 59276918784,
+    "free_disk_bytes_before_cache": 217292439552
+  },
+  "data_files": {
+    "byte_corpus.pt": "d06492a69e87683438356fc19ae6d50ebb370a9b2aaf5902bbb5a392c8603000",
+    "calibration.pt": "0f1d1342be9efc2270e2c3f1ffa3ed2a60064e5f3c749da0f5a40b735749d745",
+    "evaluation.pt": "5e7125f9de86d1175664d16ad6817775efad4e5b502a27564342a1c32b4571c6",
+    "train.pt": "61731142c36d57c2f4fe9a542de5a03cb8c2c81830190af9cf1b4beecc47eb27"
+  },
+  "piqa_sha256": "1b39accc6cfe05c27eb47d24b03ff98db889482a5658132c51ecab4ce948eedf",
+  "prepare_seconds": 4.741960800000015,
+  "byte_reference": "UTF-8 bytes, vocab256, official train/validation/test splits; not comparable to subword Qwen PPL",
+  "test_caveat": "Reuses disclosed prior evaluation partition; no new unseen benchmark claim"
+}

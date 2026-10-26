@@ -1,0 +1,87 @@
+{
+  "points": [
+    {
+      "label": "teacher",
+      "parameters": 3085938688,
+      "nll": 2.887665415373374,
+      "piqa": 0.75
+    },
+    {
+      "label": "moderate/random/kl",
+      "parameters": 2500806656,
+      "nll": 3.463632468163498,
+      "piqa": 0.705
+    },
+    {
+      "label": "moderate/informed/kl",
+      "parameters": 2500806656,
+      "nll": 3.644445276010068,
+      "piqa": 0.7233333333333333
+    },
+    {
+      "label": "moderate/informed/ce",
+      "parameters": 2500806656,
+      "nll": 3.352343520780248,
+      "piqa": 0.72
+    },
+    {
+      "label": "strong/random/kl",
+      "parameters": 1984880640,
+      "nll": 4.275244783854547,
+      "piqa": 0.6066666666666667
+    },
+    {
+      "label": "strong/informed/kl",
+      "parameters": 1984880640,
+      "nll": 4.235499157680302,
+      "piqa": 0.6583333333333333
+    },
+    {
+      "label": "strong/informed/ce",
+      "parameters": 1984880640,
+      "nll": 3.9573197533765176,
+      "piqa": 0.6533333333333333
+    }
+  ],
+  "nll_frontier": [
+    {
+      "label": "teacher",
+      "parameters": 3085938688,
+      "nll": 2.887665415373374,
+      "piqa": 0.75
+    },
+    {
+      "label": "moderate/informed/ce",
+      "parameters": 2500806656,
+      "nll": 3.352343520780248,
+      "piqa": 0.72
+    },
+    {
+      "label": "strong/informed/ce",
+      "parameters": 1984880640,
+      "nll": 3.9573197533765176,
+      "piqa": 0.6533333333333333
+    }
+  ],
+  "piqa_frontier": [
+    {
+      "label": "teacher",
+      "parameters": 3085938688,
+      "nll": 2.887665415373374,
+      "piqa": 0.75
+    },
+    {
+      "label": "moderate/informed/kl",
+      "parameters": 2500806656,
+      "nll": 3.644445276010068,
+      "piqa": 0.7233333333333333
+    },
+    {
+      "label": "strong/informed/kl",
+      "parameters": 1984880640,
+      "nll": 4.235499157680302,
+      "piqa": 0.6583333333333333
+    }
+  ],
+  "caveat": "Observed finite points, same fixed recovery budget; teacher is untrained control. Dashed connections identify observed frontier membership, not an interpolated ratio-quality law."
+}

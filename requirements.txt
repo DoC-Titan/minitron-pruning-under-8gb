@@ -1,0 +1,9 @@
+# Install the CUDA/CPU PyTorch build appropriate to your system explicitly.
+# Measured workstation build: torch==2.5.1+cu121
+torch==2.5.1
+transformers==4.51.3
+numpy==1.26.4
+datasets==3.5.0
+accelerate==1.6.0
+safetensors==0.8.0
+psutil==7.2.2

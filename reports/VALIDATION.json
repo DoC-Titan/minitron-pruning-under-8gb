@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "checks": [
+    "independent math/shape/resume tests",
+    "locked scientific source/configuration unchanged",
+    "locked input hashes",
+    "all18 matched196608-token/192-update runs; real gradients; finite quality; recovery curves",
+    "executedCPU/CUDAtiny training, matchedFP32benchmark, real3Bquality/three-size device audits",
+    "tinybenchmarksameweightsandprecision",
+    "exportedweightreadbackandfreshprocessgeneration/quality",
+    "all18finaladaptersretainedwithoutduplicatefullweights",
+    "sealed prior submission quick manifest verification"
+  ],
+  "jobs": 18,
+  "exported_generation": "Machine learning is a branch of artificial intelligence that uses\n- machine learning\n- deep learning\n- deep learning\n- deep learning\n- deep learning\n- deep learning\n- deep learning\n- deep",
+  "exported_test_subset": {
+    "nll": 4.418415174709531,
+    "perplexity": 82.9646965639308,
+    "scored_tokens": 2032,
+    "per_block_nll": [
+      4.9964465043676185,
+      4.641285333107776,
+      4.875508946696605,
+      4.734136626476378,
+      4.293609859436516,
+      4.6843127153051185,
+      4.820052980437992,
+      4.364097775436762,
+      4.375302292230561,
+      3.6486991822250245,
+      4.938131497600886,
+      4.345381609098179,
+      4.642752579816683,
+      3.942210280050443,
+      3.570663332000492,
+      3.8220512810654528
+    ],
+    "seconds": 1.7022399000015866
+  },
+  "load_seconds": 6.576860500001203,
+  "memory": {
+    "rss_gib": 1.2512893676757812,
+    "process_peak_working_set_gib": 2.4043006896972656,
+    "allocated_gib": 4.27734375,
+    "reserved_gib": 4.337890625,
+    "system_gpu": {
+      "temperature_c": 58,
+      "memory_used_mib": 6908,
+      "memory_total_mib": 8188,
+      "utilization_percent": 6
+    }
+  }
+}

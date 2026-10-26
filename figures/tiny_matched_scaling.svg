@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="490" viewBox="0 0 1000 490">
+<rect width="1000" height="490" fill="white"/>
+<text x="40" y="32" font-family="Arial" font-size="21" fill="#172d43">Matched FP32 tiny transformer: same weights and inputs</text>
+<path d="M85.00,85 V390" stroke="#e4ebee"/><text x="85.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">-39.88</text>
+<path d="M85,390 H735" stroke="#e4ebee"/><text x="74" y="394" text-anchor="end" font-family="Arial" font-size="12">-0.03</text>
+<path d="M215.00,85 V390" stroke="#e4ebee"/><text x="215.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">78.67</text>
+<path d="M85,330 H735" stroke="#e4ebee"/><text x="74" y="334" text-anchor="end" font-family="Arial" font-size="12">0.00</text>
+<path d="M345.00,85 V390" stroke="#e4ebee"/><text x="345.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">197.22</text>
+<path d="M85,270 H735" stroke="#e4ebee"/><text x="74" y="274" text-anchor="end" font-family="Arial" font-size="12">0.03</text>
+<path d="M475.00,85 V390" stroke="#e4ebee"/><text x="475.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">315.78</text>
+<path d="M85,210 H735" stroke="#e4ebee"/><text x="74" y="214" text-anchor="end" font-family="Arial" font-size="12">0.06</text>
+<path d="M605.00,85 V390" stroke="#e4ebee"/><text x="605.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">434.33</text>
+<path d="M85,150 H735" stroke="#e4ebee"/><text x="74" y="154" text-anchor="end" font-family="Arial" font-size="12">0.10</text>
+<path d="M735.00,85 V390" stroke="#e4ebee"/><text x="735.00" y="412" text-anchor="middle" font-family="Arial" font-size="12">552.88</text>
+<path d="M85,90 H735" stroke="#e4ebee"/><text x="74" y="94" text-anchor="end" font-family="Arial" font-size="12">0.13</text>
+<polyline points="129.83,288.49 137.50,292.61 163.82,290.77 269.09,290.89 690.17,282.75" fill="none" stroke="#007f83" stroke-width="2"/>
+<circle cx="129.83" cy="288.49" r="4.5" fill="#007f83"/>
+<circle cx="137.50" cy="292.61" r="4.5" fill="#007f83"/>
+<circle cx="163.82" cy="290.77" r="4.5" fill="#007f83"/>
+<circle cx="269.09" cy="290.89" r="4.5" fill="#007f83"/>
+<circle cx="690.17" cy="282.75" r="4.5" fill="#007f83"/>
+<rect x="760" y="95" width="10" height="10" fill="#007f83"/><text x="777" y="105" font-family="Arial" font-size="12">cpu</text>
+<polyline points="129.83,187.67 137.50,187.39 163.82,190.00 269.09,190.79 690.17,199.37" fill="none" stroke="#ed8446" stroke-width="2"/>
+<circle cx="129.83" cy="187.67" r="4.5" fill="#ed8446"/>
+<circle cx="137.50" cy="187.39" r="4.5" fill="#ed8446"/>
+<circle cx="163.82" cy="190.00" r="4.5" fill="#ed8446"/>
+<circle cx="269.09" cy="190.79" r="4.5" fill="#ed8446"/>
+<circle cx="690.17" cy="199.37" r="4.5" fill="#ed8446"/>
+<rect x="760" y="124" width="10" height="10" fill="#ed8446"/><text x="777" y="134" font-family="Arial" font-size="12">cuda</text>
+<text x="400" y="452" text-anchor="middle" font-family="Arial" font-size="15">Prompt tokens (16 generated)</text>
+<text x="23" y="240" transform="rotate(-90 23 240)" text-anchor="middle" font-family="Arial" font-size="15">Median prefill + decode seconds</text>
+</svg>

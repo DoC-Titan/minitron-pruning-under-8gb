@@ -1,0 +1,540 @@
+{
+  "variant": "strong_informed_s42_kl",
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "actual_parameter_devices": [
+    "cpu"
+  ],
+  "parameters": 1984880640,
+  "model_load_seconds": 10.093573400001333,
+  "construction_phases": {
+    "load_seconds": 3.647759400002542,
+    "physical_pruning_seconds": 6.243626600000425,
+    "merge_seconds": 0.20218739999836544
+  },
+  "cases": [
+    {
+      "prompt_tokens": 32,
+      "new_tokens": 16,
+      "batch_size": 1,
+      "runs": [
+        {
+          "preprocess_seconds": 0.0020867999992333353,
+          "transfer_seconds": 2.229999881819822e-05,
+          "execution_seconds": 3.838703199999145,
+          "postprocess_seconds": 6.56000011076685e-05,
+          "request_e2e_seconds": 3.840877899998304,
+          "continuation": " the family Crustacean family Crustacean family Crustacean"
+        },
+        {
+          "preprocess_seconds": 0.0016978999992716126,
+          "transfer_seconds": 2.1500000002561137e-05,
+          "execution_seconds": 3.8524486999995133,
+          "postprocess_seconds": 6.550000034621917e-05,
+          "request_e2e_seconds": 3.8542335999991337,
+          "continuation": " the family Crustacean family Crustacean family Crustacean"
+        },
+        {
+          "preprocess_seconds": 0.0019052999996347353,
+          "transfer_seconds": 2.1600000764010474e-05,
+          "execution_seconds": 3.837291300002107,
+          "postprocess_seconds": 7.400000322377309e-05,
+          "request_e2e_seconds": 3.8392922000057297,
+          "continuation": " the family Crustacean family Crustacean family Crustacean"
+        },
+        {
+          "preprocess_seconds": 0.0021693000016966835,
+          "transfer_seconds": 2.2100000933278352e-05,
+          "execution_seconds": 3.863424200000736,
+          "postprocess_seconds": 8.170000000973232e-05,
+          "request_e2e_seconds": 3.865697300003376,
+          "continuation": " the family Crustacean family Crustacean family Crustacean"
+        },
+        {
+          "preprocess_seconds": 0.0018243000013171695,
+          "transfer_seconds": 2.0799998310394585e-05,
+          "execution_seconds": 3.8408923000024515,
+          "postprocess_seconds": 7.450000339304097e-05,
+          "request_e2e_seconds": 3.842811900005472,
+          "continuation": " the family Crustacean family Crustacean family Crustacean"
+        }
+      ],
+      "median": {
+        "preprocess_seconds": 0.0019052999996347353,
+        "transfer_seconds": 2.1600000764010474e-05,
+        "execution_seconds": 3.8408923000024515,
+        "postprocess_seconds": 7.400000322377309e-05,
+        "request_e2e_seconds": 3.842811900005472
+      },
+      "execution_iqr_seconds": 0.01993919999949867,
+      "execution_range_seconds": [
+        3.837291300002107,
+        3.863424200000736
+      ],
+      "generated_tokens_per_second": 4.16569868412863,
+      "load_inclusive_first_request_seconds": 13.934451299999637,
+      "memory": {
+        "rss_gib": 8.117698669433594,
+        "process_peak_working_set_gib": 14.01418685913086
+      }
+    },
+    {
+      "prompt_tokens": 128,
+      "new_tokens": 16,
+      "batch_size": 1,
+      "runs": [
+        {
+          "preprocess_seconds": 0.001902799998788396,
+          "transfer_seconds": 1.9099999917671084e-05,
+          "execution_seconds": 4.689164899999014,
+          "postprocess_seconds": 7.090000144671649e-05,
+          "request_e2e_seconds": 4.691157699999167,
+          "continuation": " white , yellow , yellow , red , black , black , black , black ,"
+        },
+        {
+          "preprocess_seconds": 0.0019981000004918315,
+          "transfer_seconds": 1.9600000086938962e-05,
+          "execution_seconds": 4.710356800002046,
+          "postprocess_seconds": 6.639999992330559e-05,
+          "request_e2e_seconds": 4.712440900002548,
+          "continuation": " white , yellow , yellow , red , black , black , black , black ,"
+        },
+        {
+          "preprocess_seconds": 0.0021244999988994095,
+          "transfer_seconds": 2.0300001779105514e-05,
+          "execution_seconds": 4.7550845999976445,
+          "postprocess_seconds": 6.800000119255856e-05,
+          "request_e2e_seconds": 4.757297399999516,
+          "continuation": " white , yellow , yellow , red , black , black , black , black ,"
+        },
+        {
+          "preprocess_seconds": 0.002083300001686439,
+          "transfer_seconds": 2.1800002286909148e-05,
+          "execution_seconds": 4.643363099999988,
+          "postprocess_seconds": 6.829999983892776e-05,
+          "request_e2e_seconds": 4.6455365000038,
+          "continuation": " white , yellow , yellow , red , black , black , black , black ,"
+        },
+        {
+          "preprocess_seconds": 0.0015860000021348242,
+          "transfer_seconds": 1.6199999663513154e-05,
+          "execution_seconds": 4.672498700001597,
+          "postprocess_seconds": 7.080000068526715e-05,
+          "request_e2e_seconds": 4.674171700004081,
+          "continuation": " white , yellow , yellow , red , black , black , black , black ,"
+        }
+      ],
+      "median": {
+        "preprocess_seconds": 0.0019981000004918315,
+        "transfer_seconds": 1.9600000086938962e-05,
+        "execution_seconds": 4.689164899999014,
+        "postprocess_seconds": 6.829999983892776e-05,
+        "request_e2e_seconds": 4.691157699999167
+      },
+      "execution_iqr_seconds": 0.07478979999905278,
+      "execution_range_seconds": [
+        4.643363099999988,
+        4.7550845999976445
+      ],
+      "generated_tokens_per_second": 3.4121214205973787,
+      "load_inclusive_first_request_seconds": 14.7847311000005,
+      "memory": {
+        "rss_gib": 8.12704849243164,
+        "process_peak_working_set_gib": 14.01418685913086
+      }
+    },
+    {
+      "prompt_tokens": 512,
+      "new_tokens": 16,
+      "batch_size": 1,
+      "runs": [
+        {
+          "preprocess_seconds": 0.001682400001300266,
+          "transfer_seconds": 1.8599999748403206e-05,
+          "execution_seconds": 9.522670000002108,
+          "postprocess_seconds": 6.760000178474002e-05,
+          "request_e2e_seconds": 9.524438600004942,
+          "continuation": "marum , is the species H. americanus , which is a large and"
+        },
+        {
+          "preprocess_seconds": 0.0021023000008426607,
+          "transfer_seconds": 2.000000313273631e-05,
+          "execution_seconds": 9.421875300002284,
+          "postprocess_seconds": 6.24999993306119e-05,
+          "request_e2e_seconds": 9.42406010000559,
+          "continuation": "marum , is the species H. americanus , which is a large and"
+        },
+        {
+          "preprocess_seconds": 0.0016727000001992565,
+          "transfer_seconds": 1.7600003047846258e-05,
+          "execution_seconds": 9.496383400000923,
+          "postprocess_seconds": 6.08000009378884e-05,
+          "request_e2e_seconds": 9.498134500005108,
+          "continuation": "marum , is the species H. americanus , which is a large and"
+        },
+        {
+          "preprocess_seconds": 0.0017345000014756806,
+          "transfer_seconds": 2.010000025620684e-05,
+          "execution_seconds": 9.365844299998571,
+          "postprocess_seconds": 7.129999721655622e-05,
+          "request_e2e_seconds": 9.36767019999752,
+          "continuation": "marum , is the species H. americanus , which is a large and"
+        },
+        {
+          "preprocess_seconds": 0.002219999998487765,
+          "transfer_seconds": 2.0200001017656177e-05,
+          "execution_seconds": 9.38917389999915,
+          "postprocess_seconds": 7.48999991628807e-05,
+          "request_e2e_seconds": 9.391488999997819,
+          "continuation": "marum , is the species H. americanus , which is a large and"
+        }
+      ],
+      "median": {
+        "preprocess_seconds": 0.0017345000014756806,
+        "transfer_seconds": 2.000000313273631e-05,
+        "execution_seconds": 9.421875300002284,
+        "postprocess_seconds": 6.760000178474002e-05,
+        "request_e2e_seconds": 9.42406010000559
+      },
+      "execution_iqr_seconds": 0.13201760000265494,
+      "execution_range_seconds": [
+        9.365844299998571,
+        9.522670000002108
+      ],
+      "generated_tokens_per_second": 1.6981757336563477,
+      "load_inclusive_first_request_seconds": 19.618012000006274,
+      "memory": {
+        "rss_gib": 8.2557373046875,
+        "process_peak_working_set_gib": 14.01418685913086
+      }
+    }
+  ],
+  "quality": {
+    "test": {
+      "nll": 4.4193202942375125,
+      "perplexity": 83.03982352523484,
+      "scored_tokens": 2032,
+      "per_block_nll": [
+        4.997880590243603,
+        4.6415280319574315,
+        4.874827467550443,
+        4.735336664154774,
+        4.295163612666093,
+        4.685231606791339,
+        4.822199783925935,
+        4.3646245040292815,
+        4.376508097010334,
+        3.6484569639671505,
+        4.939316156342274,
+        4.345686784879429,
+        4.643706073911171,
+        3.9436962698388287,
+        3.5713364007904773,
+        3.823625699741634
+      ],
+      "seconds": 26.085535499998514
+    },
+    "piqa": {
+      "accuracy": 0.5625,
+      "count": 32,
+      "details": [
+        {
+          "index": 13,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -4.853537082672119,
+            -4.840163230895996
+          ]
+        },
+        {
+          "index": 51,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -3.991666078567505,
+            -3.754183053970337
+          ]
+        },
+        {
+          "index": 52,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -5.359121322631836,
+            -4.925759315490723
+          ]
+        },
+        {
+          "index": 54,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -3.142825126647949,
+            -4.648749351501465
+          ]
+        },
+        {
+          "index": 56,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -3.4166922569274902,
+            -3.0617079734802246
+          ]
+        },
+        {
+          "index": 61,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.952101945877075,
+            -4.064477920532227
+          ]
+        },
+        {
+          "index": 64,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -3.447225570678711,
+            -3.0456199645996094
+          ]
+        },
+        {
+          "index": 65,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.296976089477539,
+            -3.4887535572052
+          ]
+        },
+        {
+          "index": 69,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -4.067535400390625,
+            -4.573232173919678
+          ]
+        },
+        {
+          "index": 92,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.4850287437438965,
+            -3.96811842918396
+          ]
+        },
+        {
+          "index": 97,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -4.940772533416748,
+            -4.448239803314209
+          ]
+        },
+        {
+          "index": 100,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -3.657349109649658,
+            -3.4433135986328125
+          ]
+        },
+        {
+          "index": 118,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -5.194342136383057,
+            -5.482697486877441
+          ]
+        },
+        {
+          "index": 134,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -4.359374046325684,
+            -3.965862512588501
+          ]
+        },
+        {
+          "index": 139,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -3.2657997608184814,
+            -3.189074754714966
+          ]
+        },
+        {
+          "index": 146,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -2.5540311336517334,
+            -3.163266658782959
+          ]
+        },
+        {
+          "index": 150,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -3.532341241836548,
+            -4.400450229644775
+          ]
+        },
+        {
+          "index": 165,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -4.078399658203125,
+            -3.2892518043518066
+          ]
+        },
+        {
+          "index": 167,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -4.055553436279297,
+            -4.047358512878418
+          ]
+        },
+        {
+          "index": 178,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -3.7876665592193604,
+            -3.4908008575439453
+          ]
+        },
+        {
+          "index": 183,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -5.062373638153076,
+            -5.007013320922852
+          ]
+        },
+        {
+          "index": 191,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -5.287495136260986,
+            -4.622975826263428
+          ]
+        },
+        {
+          "index": 192,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -4.512007236480713,
+            -5.975068092346191
+          ]
+        },
+        {
+          "index": 195,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -4.382766246795654,
+            -4.659922122955322
+          ]
+        },
+        {
+          "index": 197,
+          "label": 1,
+          "prediction": 0,
+          "scores": [
+            -4.799417972564697,
+            -5.207880973815918
+          ]
+        },
+        {
+          "index": 204,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -4.725826740264893,
+            -4.7952680587768555
+          ]
+        },
+        {
+          "index": 209,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -3.8841171264648438,
+            -3.246324300765991
+          ]
+        },
+        {
+          "index": 213,
+          "label": 1,
+          "prediction": 1,
+          "scores": [
+            -4.757307052612305,
+            -4.372202396392822
+          ]
+        },
+        {
+          "index": 216,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -3.519916534423828,
+            -3.8347344398498535
+          ]
+        },
+        {
+          "index": 228,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -4.815713882446289,
+            -4.873353481292725
+          ]
+        },
+        {
+          "index": 232,
+          "label": 0,
+          "prediction": 0,
+          "scores": [
+            -6.037411212921143,
+            -6.484860897064209
+          ]
+        },
+        {
+          "index": 236,
+          "label": 0,
+          "prediction": 1,
+          "scores": [
+            -4.5970964431762695,
+            -4.456705570220947
+          ]
+        }
+      ],
+      "seconds": 44.18180299999949,
+      "method": "custom zero-shot length-normalized answer conditional likelihood; not official lm-eval harness"
+    }
+  },
+  "cpu_threads": 4,
+  "warmups": 2,
+  "repeats": 5,
+  "comparison_label": "CPU FP32 vs CUDA FP16 is deployment device+precision, not isolated hardware speedup",
+  "loading_caveat": "Fresh process/model load; OS file cache is uncontrolled, not cold storage latency",
+  "phase_seconds": 196.17576279999776
+}

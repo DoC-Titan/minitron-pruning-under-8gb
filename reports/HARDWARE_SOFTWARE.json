@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-10-26T17:51:50.722324+05:30",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "cpu": "12th Gen Intel(R) Core(TM) i5-12400F",
+  "physical_cores": 6,
+  "logical_cores": 12,
+  "ram_total_gib": 31.845478057861328,
+  "ram_available_gib": 23.439159393310547,
+  "cpu_threads": 4,
+  "cuda_runtime": "12.1",
+  "cudnn": 90100,
+  "gpu": "NVIDIA GeForce RTX 4060",
+  "gpu_vram_gib": 7.99560546875,
+  "compute_capability": [
+    8,
+    9
+  ],
+  "gpu_driver": "610.88",
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.51.3",
+    "numpy": "1.26.4",
+    "datasets": "3.5.0",
+    "accelerate": "1.6.0",
+    "safetensors": "0.8.0",
+    "psutil": "7.2.2",
+    "tensorrt_llm": "NOT INSTALLED / NOT USED",
+    "nvidia-modelopt": "NOT INSTALLED / NOT USED",
+    "nemo_toolkit": "NOT INSTALLED / NOT USED",
+    "cuml": "NOT INSTALLED / NOT USED"
+  },
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "cuml_accel_fallback": "N/A: no RAPIDS/cuML estimator or accelerator used",
+  "cpu_temperature": "Unavailable: Windows/psutil exposes no verified CPU temperature sensor; not measured",
+  "tf32": false,
+  "determinism": "fixed RNG seeds, no dropout, TF32 off; backend bitwise determinism not guaranteed",
+  "safety": {
+    "max_extension_gib": 12,
+    "min_free_disk_gib": 60,
+    "min_available_ram_gib": 4,
+    "cuda_memory_fraction": 0.82,
+    "gpu_pause_celsius": 80,
+    "gpu_resume_celsius": 72,
+    "max_cooldown_seconds": 600
+  }
+}

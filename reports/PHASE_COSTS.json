@@ -1,0 +1,28 @@
+{
+  "data_preparation_seconds": 4.741960800000015,
+  "target_inference_transfer_write_seconds": 198.72234450000087,
+  "target_model_load_seconds": 99.33729519999997,
+  "target_peak_payload_bytes": 2469871744,
+  "total_teacher_targets_generated_bytes": 59276921856,
+  "calibration_seconds": 85.2008896999996,
+  "calibration_model_load_seconds": 7.1583402999999635,
+  "main_model_execution_seconds": 6791.232850399732,
+  "main_target_transfer_seconds": 442.47698319975007,
+  "main_reconstruction_seconds": 1855.3022336999875,
+  "main_validation_seconds": 214.9551315999979,
+  "final_quality_and_generation_seconds": 517.4326456999879,
+  "final_reconstruction_and_merge_seconds": 81.06404800002201,
+  "model_export_write_seconds": 2.7305993999980274,
+  "model_export_reconstruction_seconds": 4.667679799997131,
+  "tiny_model_execution_seconds": 38.98612050001884,
+  "checkpoint_seconds_approx": 305.08422459998746,
+  "stage_wall_seconds": 13865.566612999994,
+  "maximum_sampled_training_gpu_c": 65,
+  "maximum_training_allocated_gib": 5.1937642097473145,
+  "notes": [
+    "Stage wall totals include process/import/monitor/IO overhead; not equal to sum of model-only timings.",
+    "Checkpoint timing cumulative counter excludes the most recent write due to checkpoint serialization ordering; approximate, not exact.",
+    "Power-cut/replayed steps may add wall cost; logical tokens count only committed updates.",
+    "load_inclusive_first_request_seconds in raw benchmark is load plus first timed WARM request, a proxy, not measured cold-first-request latency."
+  ]
+}
