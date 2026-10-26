@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE_AND_PRIVATELY_PUBLISHED",
+  "completed_at": "2026-10-26T22:26:38.676600+05:30",
+  "main_recovery_runs": 18,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "input_tokens_per_main_run": 196608,
+  "total_main_input_tokens": 3538944,
+  "total_main_optimizer_updates": 3456,
+  "cpu_reference": "Executed full tiny train/prune/KL+CE recovery across three seeds; same-weight FP32 scaling",
+  "real_cpu_gpu_protocol": "Teacher and two students, three prompt lengths, two warmups and five timings; paired NLL/PPL and PIQA",
+  "precision_caveat": "Real CPU FP32/CUDA FP16 ratios include precision effects; matched-FP32 tiny reference showed no GPU benefit at sampled sizes",
+  "optional_tensorrt_llm": "Not executed: documented native-Windows compatibility exclusion",
+  "presentation_slides": 12,
+  "presentation_layout_warnings": 0,
+  "validation": "PASS",
+  "maximum_training_allocated_gib": 5.1937642097473145,
+  "maximum_sampled_training_gpu_c": 65,
+  "target_payloads_retained": false,
+  "extension_gib_at_signoff": 5.025477989576757,
+  "free_disk_gib_at_signoff": 194.7962989807129,
+  "repository": "https://github.com/DoC-Titan/minitron-pruning-under-8gb",
+  "visibility": "PRIVATE",
+  "initial_verified_publication_commit": "6fc4c944b4c91625061bc8efd1e346494775a6e0",
+  "final_remote_verification": "Latest hosted commit is checked by publish.py and recorded in the local publication receipt after this metadata commit",
+  "prior_submission": "Unchanged; all246releasefiles passed quick size/manifest validation; teacher numerical/tokenizer hashes also retained",
+  "limitations": [
+    "Only three seeds/two sizes/one model family and machine",
+    "Main recovery is short-budget LoRA, not NVIDIA-scale full-weight training",
+    "Custom PIQA and reused disclosed test partition",
+    "Exported strong KL representative is not a best-model claim and can generate repetitive text"
+  ]
+}

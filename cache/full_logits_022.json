@@ -1,0 +1,29 @@
+{
+  "sha256": "37585542705ca3d5974fddbcc448bab1dbee94e948c957a3cd8cdca78e283a94",
+  "shape": [
+    64,
+    127,
+    151936
+  ],
+  "dtype": "float16",
+  "full_vocabulary": true,
+  "train_sha256": "30df7c7ff523b1af421df674d6ad230940b39c09db78119364accf074344b710",
+  "teacher_revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+  "start": 1408,
+  "end": 1472,
+  "inference_transfer_write_seconds": 8.61695200000031,
+  "load_seconds": 4.223843600000691,
+  "actual_bytes": 2469871744,
+  "memory": {
+    "rss_gib": 0.9666595458984375,
+    "process_peak_working_set_gib": 4.273681640625,
+    "allocated_gib": 6.328125,
+    "reserved_gib": 6.404296875,
+    "system_gpu": {
+      "temperature_c": 54,
+      "memory_used_mib": 7264,
+      "memory_total_mib": 8188,
+      "utilization_percent": 2
+    }
+  }
+}

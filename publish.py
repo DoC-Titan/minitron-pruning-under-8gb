@@ -27,7 +27,7 @@ def main():
     assert hashlib.sha256((ROOT/'presentation/slides.json').read_bytes()).hexdigest()==build['slides_sha256'],'Deck text changed after validated build'
     allowed=[]
     for pattern in ['*.py','*.md','*.ps1','config.json','requirements.txt','NOTICE.txt','.gitignore','.gitattributes','examples/*.yml','data/*','recipes/*','metrics/*.json',
-                    'reports/*','figures/*','presentation/*','presentation/previews/*','licenses/*','adapters/*','logs/stage_costs.jsonl','logs/*_s*.jsonl']:
+                    'cache/*.json','reports/*','figures/*','presentation/*','presentation/previews/*','licenses/*','adapters/*','logs/stage_costs.jsonl','logs/*_s*.jsonl']:
         for path in ROOT.glob(pattern):
             if not path.is_file() or path.name.endswith('.tmp') or path.name.endswith('.partial.json'):continue
             if '.local.' in path.name:continue

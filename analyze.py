@@ -202,7 +202,7 @@ def main():
     costs={'data_preparation_seconds':read('data/manifest.json')['prepare_seconds'],
            'target_inference_transfer_write_seconds':sum(r['inference_transfer_write_seconds'] for r in caches),
            'target_model_load_seconds':sum(r['load_seconds'] for r in caches),'target_peak_payload_bytes':max(r['actual_bytes'] for r in caches),
-           'total_teacher_targets_generated_bytes':sum(r['actual_bytes'] for r in caches),'calibration_seconds':read('metrics/sensitivity.json')['seconds'],
+           'committed_teacher_target_payload_bytes_sum':sum(r['actual_bytes'] for r in caches),'calibration_seconds':read('metrics/sensitivity.json')['seconds'],
            'calibration_model_load_seconds':read('metrics/sensitivity.json')['load_seconds'],
            'main_model_execution_seconds':sum(r['totals']['model_execution_seconds'] for r in results),
            'main_target_transfer_seconds':sum(r['totals']['target_read_transfer_seconds'] for r in results),
@@ -215,9 +215,11 @@ def main():
            'tiny_model_execution_seconds':sum(r['result']['training_seconds'] for rr in [tc,tg] for r in rr['rows']),
            'checkpoint_seconds_approx':sum(r['totals']['checkpoint_seconds'] for r in results),
            'stage_wall_seconds':sum(r['seconds'] for r in stages),'maximum_sampled_training_gpu_c':max(temps) if temps else None,
+           'failed_stage_wall_seconds':sum(r['seconds'] for r in stages if r['returncode']!=0),
            'maximum_training_allocated_gib':max(r['totals']['training_peak_allocated_gib'] for r in results),
            'notes':['Stage wall totals include process/import/monitor/IO overhead; not equal to sum of model-only timings.',
                     'Checkpoint timing cumulative counter excludes the most recent write due to checkpoint serialization ordering; approximate, not exact.',
+                    'Target payload/inference sums cover committed successful shards; failed-attempt wall time is retained separately and also included in stage_wall_seconds.',
                     'Power-cut/replayed steps may add wall cost; logical tokens count only committed updates.',
                     'load_inclusive_first_request_seconds in raw benchmark is load plus first timed WARM request, a proxy, not measured cold-first-request latency.']}
     atomic_json(ROOT/'reports/PHASE_COSTS.json',costs)
@@ -324,6 +326,11 @@ def report(s,rows,frontier):
             '| New12-slidepresentation | presentation/ after build validation | Generated strictly from measured summary |',
             '| GitHub publication | publish_receipt.local.json only after verified remote | Pending authentication/publication until receipt exists |']
     (ROOT/'reports/REQUIREMENTS_LEDGER.md').write_text(polish_markdown('\n'.join(ledger)),encoding='utf-8')
+    published=ROOT/'publish_receipt.local.json'
+    publication=json.loads(published.read_text()) if published.exists() else None
+    if publication and publication.get('status')=='PUBLISHED_AND_VERIFIED':
+        ledger[-1]='| GitHub publication | '+publication['url']+' | Private repository; initial hosted commit verified against local HEAD; final receipt retained locally |'
+        (ROOT/'reports/REQUIREMENTS_LEDGER.md').write_text(polish_markdown('\n'.join(ledger)),encoding='utf-8')
     head=['# Pruning under an8GiB GPU budget','',
           '**A reproducible, Minitron-inspired structured-compression and systems study—built with Qwen.**','',
           f'18matchedrecoveryruns · 2compressionlevels · 3seeds · CPU/CUDAexecution · full-vocabularyKD · checkpointed execution','',
@@ -346,6 +353,8 @@ def report(s,rows,frontier):
         f'- Main training peak allocation: **{s["costs"]["maximum_training_allocated_gib"]:.2f} GiB**; maximum sampled GPU temperature: **{s["costs"]["maximum_sampled_training_gpu_c"]}°C**; streamed target payload about **{s["costs"]["target_peak_payload_bytes"]/2**30:.2f} GiB**.',
         '', 'The contribution is controlled evidence and reliable engineering—not a claim of reproducing NVIDIA H100-scale quality.','']
     pos=head.index('## Start here');head[pos:pos]=takeaways
+    if publication and publication.get('status')=='PUBLISHED_AND_VERIFIED':
+        head+=['','## Private repository',publication['url'],'Access is restricted to the owner and invited reviewers. Publication excludes full weights and machine-local recovery state.']
     (ROOT/'README.md').write_text(polish_markdown('\n'.join(head)),encoding='utf-8')
 
 

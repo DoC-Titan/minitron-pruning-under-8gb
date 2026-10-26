@@ -32,3 +32,7 @@ Physical depth/FFN trimming, seed-matched CE controls, full-vocabulary logit str
 Not an official NVIDIA reproduction, a production chatbot, a TensorRT benchmark or a claim that larger models are unnecessary. Main recovery is adapter-only and short-budget. CPU FP32/CUDA FP16 deployment ratios include precision effects; matched-FP32 tiny experiments isolate device. Three seeds do not establish universal rankings. Qwen2.5-3B has a noncommercial research license.
 
 Large weights, optimizer states, cached targets, virtual environments and supplied copyrighted PDFs are intentionally excluded from GitHub. Exact recipes, all final adapters, raw metrics and regeneration instructions are included.
+
+## Private repository
+https://github.com/DoC-Titan/minitron-pruning-under-8gb
+Access is restricted to the owner and invited reviewers. Publication excludes full weights and machine-local recovery state.

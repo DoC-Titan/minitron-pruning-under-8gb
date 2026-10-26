@@ -93,7 +93,7 @@ Full-vocabulary targets were streamed in 64-block shards, consumed by all condit
   "target_inference_transfer_write_seconds": 198.72234450000087,
   "target_model_load_seconds": 99.33729519999997,
   "target_peak_payload_bytes": 2469871744,
-  "total_teacher_targets_generated_bytes": 59276921856,
+  "committed_teacher_target_payload_bytes_sum": 59276921856,
   "calibration_seconds": 85.2008896999996,
   "calibration_model_load_seconds": 7.1583402999999635,
   "main_model_execution_seconds": 6791.232850399732,
@@ -108,10 +108,12 @@ Full-vocabulary targets were streamed in 64-block shards, consumed by all condit
   "checkpoint_seconds_approx": 305.08422459998746,
   "stage_wall_seconds": 13865.566612999994,
   "maximum_sampled_training_gpu_c": 65,
+  "failed_stage_wall_seconds": 14.177324000000226,
   "maximum_training_allocated_gib": 5.1937642097473145,
   "notes": [
     "Stage wall totals include process/import/monitor/IO overhead; not equal to sum of model-only timings.",
     "Checkpoint timing cumulative counter excludes the most recent write due to checkpoint serialization ordering; approximate, not exact.",
+    "Target payload/inference sums cover committed successful shards; failed-attempt wall time is retained separately and also included in stage_wall_seconds.",
     "Power-cut/replayed steps may add wall cost; logical tokens count only committed updates.",
     "load_inclusive_first_request_seconds in raw benchmark is load plus first timed WARM request, a proxy, not measured cold-first-request latency."
   ]

@@ -19,4 +19,4 @@
 | TensorRT-LLM if supported | BACKEND_SUPPORT_AUDIT.md | Native-Windows cited release unsupported; not executed |
 | Durable execution and reproducibility | Atomic hashed checkpoints, corruption-fallback unit test, RESUME.ps1 | No UPS or hardware-fault guarantee |
 | New12-slide presentation | presentation/ after build validation | Generated strictly from measured summary |
-| GitHub publication | publish_receipt.local.json only after verified remote | Pending authentication/publication until receipt exists |
+| GitHub publication | https://github.com/DoC-Titan/minitron-pruning-under-8gb | Private repository; initial hosted commit verified against local HEAD; final receipt retained locally |

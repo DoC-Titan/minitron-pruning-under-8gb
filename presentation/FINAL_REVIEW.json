@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "slide_count": 12,
+  "layout_warnings": 0,
+  "visual_review": "All twelve slides inspected via contact sheet; detailed result and device-scaling slides reviewed at full resolution",
+  "pptx_sha256": "273a9d3e4eb2b9c422bf55b461e925bc2ed5d99fa009fc35741ebdec13b34bfb",
+  "pdf_sha256": "58f412220487e68aadc7f2c78607d5dfa27ec513cd0a70efb3cee4e4095427c5",
+  "reviewed_at": "2026-10-26T22:26:38.676600+05:30"
+}
